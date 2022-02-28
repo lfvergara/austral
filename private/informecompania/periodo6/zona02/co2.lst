@@ -1,0 +1,51 @@
+            Reporte de la Compañía LSBROSKI for Período 6
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  67040    100%  Decisiones:Precio     $    40
+CBV                $ -14447     22%             Producción    1316 unid.
+                  --------- -------             Marketing  $ 12000
+Margen Bruto       $  52593     78%             Inversión  $  3292
+Marketing          $ -12000     18%             I & D      $     2
+Depreciación       $  -3289      5%
+I & D              $     -2      0%
+Carga Social       $   -210      0%  Reporte de Producción:
+Cargo Inventario   $    -53      0%  Producción               1316 unid.
+Interés            $   -293      0%  Capacid. de Fábrica      1644 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  36746     55%  Produc.Costo/Unidad   $  7.79
+Impuestos          $  -9187     14%  Inventario                 53 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  27559     41%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1676 unid.
+Efectivo           $  54009     45%  Ventas Realizadas        1676 unid.
+Inventario         $    454      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  65790     55%  Precio/Unid. Vendida  $ 40.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 17.95
+Total Activo       $ 120253    100%  Margen/Unid.Vendida   $ 22.05
+
+Préstamos          $  10643      9%  Reporte de Inversión:
+Ganancias Reten.   $  86772     72%  Capacid.de Fabr. $  65787    1644 unid.
+Capital            $  22838     19%  Inversión Neta   $      3       0 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $ 120253    100%  Próx. Capacidad  $  65790    1645 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  52371
+Utilidad Neta      $  27559
+Depreciación       $   3289
+Invers. de Capital $  -3292
+Cambio de Invent.  $   4196
+Préstamo Neto      $ -30115
+                  ---------
+Caja Final         $  54009
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

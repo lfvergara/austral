@@ -1,0 +1,215 @@
+<div class="col-lg-12">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/reporte/{panel_general}"><i class="fa fa-home"></i> HOME</a></li>
+        <li><a href="{url_app}/{objeto}/panel">Panel Configuración</a></li>
+    </ul>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-gamepad"></i>&nbsp;&nbsp; Configurar Competencia</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class=" form">
+                <form class="form" id="formulario_guardar" method="post" action="{url_app}/configuracion/configurar_competencia">
+                    <div class="form-group col-lg-12">
+                        <label>Competencia</label>
+                        <input type="text" class="form-control" id="denominacion" name="denominacion" value="{competencia-denominacion}">
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Administrador</label>
+                        <input type="text" class="form-control" id="administrador" name="administrador" value="{competencia-administrador}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Período</label>
+                        <input type="text" class="form-control" id="periodo" name="periodo" value="{competencia-periodo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>MAX Equipos</label>
+                        <input type="text" class="form-control" id="maximo_equipos" name="maximo_equipos" value="{competencia-maximo_equipos}">
+                    </div>  
+                    <div class="form-group col-lg-6">
+                        <label>Ronda</label>
+                        <select class="form-control m-bot15" name="rondacompetencia" required>
+                            <option value="{rondacompetencia-rondacompetencia_id}">{rondacompetencia-denominacion}</option>
+                            {slt_rondacompetencia}
+                        </select>
+                    </div>        
+                    <div class="form-group col-lg-6">
+                        <label>Estado</label>
+                        <select class="form-control m-bot15" name="estadocompetencia" required>
+                            <option value="{estadocompetencia-estadocompetencia_id}">{estadocompetencia-denominacion}</option>
+                            {slt_estadocompetencia}
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>ACT Equipos</label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="activo_equipos" value="1" {competencia-chk_act_equipo}>
+                            <span class="checkbox__icon"></span> Activo
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>ACT Reportes</label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="activo_reportes" value="1" {competencia-chk_act_reporte}>
+                            <span class="checkbox__icon"></span> Activo
+                        </label>                        
+                    </div> 
+                    <div class="form-group col-lg-6">
+                        <label>Inicio Inscripción</label>
+                        <input type="date" class="form-control" id="fecha_inicio_inscripcion" name="fecha_inicio_inscripcion" value="{competencia-fecha_inicio_inscripcion}">                        
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Fin Inscripción</label>
+                        <input type="date" class="form-control" id="fecha_fin_inscripcion" name="fecha_fin_inscripcion" value="{competencia-fecha_fin_inscripcion}">
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="correoelectronico" name="correoelectronico" value="{competencia-correoelectronico}">
+                    </div> 
+                    <div class="col-lg-12" style="margin-top: 2%;" align="right">
+                        <input type="hidden" name="competencia_id" value="{competencia-competencia_id}">
+                        <button href="#" class="btn btn-app" type="submit"> <i class="fa fa-cogs"></i> Configurar </button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-gamepad"></i>&nbsp;&nbsp; Configurar Decisiones</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class=" form">
+                <form class="form" id="formulario_guardar" method="post" action="{url_app}/configuracion/configurar_decision">
+                    <div class="form-group col-lg-9">
+                        <label>Text Decisiones</label>
+                        <textarea class="form-control" id="texto" name="texto" rows="5">{configuraciondecision-texto}</textarea>
+                    </div>
+                    <div class="form-group col-lg-3">
+                        <label>ACT Decisiones</label>
+                        <label class="checkbox">
+                            <input type="checkbox" name="activo" value="1" {configuraciondecision-chk_activo}>
+                            <span class="checkbox__icon"></span> Activo
+                        </label>
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Precio MIN</label>
+                        <input type="text" class="form-control" id="precio_minimo" name="precio_minimo" value="{configuraciondecision-precio_minimo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Precio MAX</label>
+                        <input type="text" class="form-control" id="precio_maximo" name="precio_maximo" value="{configuraciondecision-precio_maximo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Producción MIN</label>
+                        <input type="text" class="form-control" id="produccion_minimo" name="produccion_minimo" value="{configuraciondecision-produccion_minimo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Producción MAX</label>
+                        <input type="text" class="form-control" id="produccion_maximo" name="produccion_maximo" value="{configuraciondecision-produccion_maximo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Marketing MIN</label>
+                        <input type="text" class="form-control" id="marketing_minimo" name="marketing_minimo" value="{configuraciondecision-marketing_minimo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Marketing MAX</label>
+                        <input type="text" class="form-control" id="marketing_maximo" name="marketing_maximo" value="{configuraciondecision-marketing_maximo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Inversión MIN</label>
+                        <input type="text" class="form-control" id="inversion_minimo" name="inversion_minimo" value="{configuraciondecision-inversion_minimo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>Inversión MAX</label>
+                        <input type="text" class="form-control" id="inversion_maximo" name="inversion_maximo" value="{configuraciondecision-inversion_maximo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>I&D MIN</label>
+                        <input type="text" class="form-control" id="iandd_minimo" name="iandd_minimo" value="{configuraciondecision-iandd_minimo}">
+                    </div>
+                    <div class="form-group col-lg-6">
+                        <label>I&D MAX</label>
+                        <input type="text" class="form-control" id="iandd_maximo" name="iandd_maximo" value="{configuraciondecision-iandd_maximo}">
+                    </div>
+                    <div class="col-lg-12" style="margin-top: 2%;" align="right">
+                        <input type="hidden" name="competencia_id" value="{competencia-competencia_id}">
+                        <button href="#" class="btn btn-app" type="submit"> <i class="fa fa-cogs"></i> Configurar </button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-building"></i>&nbsp;&nbsp; Entidad</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class=" form">
+                <form class="form" id="formulario_entidad" method="post" action="{url_app}/configuracion/definir_entidad">
+                    <div class="form-group col-lg-12">
+                        <label>Organización</label>
+                        <input type="text" class="form-control" id="razon_social" name="razon_social" value="{configuracion-razon_social}" readonly>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Remitente</label>
+                        <input type="text" class="form-control" id="remitente" name="remitente" value="{configuracion-remitente}" readonly>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Email</label>
+                        <input type="text" class="form-control" id="correoelectronico" name="correoelectronico" value="{configuracion-correoelectronico}" readonly>
+                    </div>
+                    <div class="form-group col-lg-12">
+                        <label>Host</label>
+                        <input type="text" class="form-control" id="host" name="host" value="{configuracion-host}" readonly>
+                    </div>          
+                </form>
+            </div>            
+        </div>
+    </div>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-photo"></i>&nbsp;&nbsp; Logo</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <center><img src="{url_app}/configuracion/ver_archivo/file.php?f=configuracion_logo_logo&a=v" style="width: 70%; margin-bottom: 5%; text-align: center;"></center>
+            <div class="form">
+                <form class="form" id="formulario_guardar" method="post" action="{url_app}/configuracion/definir_logo" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input type="file" class="form-control" id="logo" name="logo" required>
+                    </div>
+                    <div class="col-lg-12" style="margin-top: 2%;" align="right">
+                        <input type="hidden" name="configuracion_id" value="{configuracion-configuracion_id}">
+                        <button href="#" class="btn btn-app" type="submit"> <i class="fa fa-photo"></i> Definir </button>
+                    </div>
+                </form>
+            </div>            
+        </div>
+    </div>
+</div>

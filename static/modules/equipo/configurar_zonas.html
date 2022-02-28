@@ -1,0 +1,152 @@
+<!--DATA TABLE-->
+<link href="{url_static}vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="{url_static}vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+<!--DATA TABLE-->
+<div class="col-lg-12">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/reporte/{panel_general}"><i class="fa fa-home"></i> HOME</a></li>
+        <li><a href="{url_app}/{objeto}/{panel_objeto}">Panel Participantes</a></li>
+    </ul>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-table"></i>&nbsp;&nbsp; Listado de Equipos</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table id="tbl_equipo" class="table table-striped table-bordered">
+                <thead>
+                    <tr style="font-size: 12px;">
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Institución</th>
+                        <th>Provincia</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tbl_equipo}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-users"></i>&nbsp;&nbsp; Visor zona</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content" id="div_visor_zona">
+            <form class="form" method="post" action="{url_app}/equipo/guardar_configuracion_zona_conjunta">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="formConfigurarZona">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <label>Seleccionar Zona</label>
+                        <input class="form-control" type="number" name="zona" id="zona" required>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <label>Equipo</label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <label>Zona</label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12">
+                        <label>N°</label>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <button type="submit" class="btn btn-primary btn-sm" style="width: 100%; margin-top: 1%;"><i class="fa fa-save"></i> Configurar Zona</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Datatables -->
+<script src="{url_static}vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="{url_static}vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script type="text/javascript" charset="utf-8">
+    array_ids = new Array();
+
+    $(document).ready(function() {
+        $('#tbl_equipo').dataTable( {
+            "aaSorting": [[ 0, "asc" ]]
+          , "iDisplayLength":20
+        } );
+    } );
+
+    function editarEquipo(equipo_id) {
+        var contenido_equipo = $.ajax({
+            url: '{url_app}/equipo/editar_zona/' + equipo_id,
+                dataType: 'text',
+                async: false
+        }).responseText;
+
+        document.getElementById("div_visor_zona").innerHTML = contenido_equipo;
+    }
+
+    function agregarEquipo(equipo_id, equipo_denominacion, zona, numero) {
+        var flag = array_ids.indexOf(equipo_id);
+        if(parseInt(flag) === -1) {
+            var formConfigurarZona = document.getElementById('formConfigurarZona');
+            
+            var divConfigurarEquipo = document.createElement("div");
+            divConfigurarEquipo.setAttribute("id", "idDiv_" + equipo_id);
+            divConfigurarEquipo.setAttribute("class", "col-lg-12 col-md-12 col-sm-12 col-xs-12");
+
+            
+            var divDenominacionEquipo = document.createElement("div");
+            divDenominacionEquipo.setAttribute("class", "col-lg-8 col-md-8 col-sm-12 col-xs-12");
+            var inputDenominacionEquipo = document.createElement("input");
+            inputDenominacionEquipo.setAttribute("type", "text");
+            inputDenominacionEquipo.setAttribute("class", "form-control");
+            inputDenominacionEquipo.setAttribute("id", "equipo_denominacion_" + equipo_id);
+            inputDenominacionEquipo.setAttribute("value", equipo_denominacion);
+            inputDenominacionEquipo.setAttribute("readonly", true);
+
+            var divZonaEquipo = document.createElement("div");
+            divZonaEquipo.setAttribute("class", "col-lg-2 col-md-2 col-sm-12 col-xs-12");
+            var inputZonaEquipo = document.createElement("input");
+            inputZonaEquipo.setAttribute("type", "text");
+            inputZonaEquipo.setAttribute("class", "form-control");
+            inputZonaEquipo.setAttribute("id", "equipo_zona_" + equipo_id);
+            inputZonaEquipo.setAttribute("value", zona);
+            inputZonaEquipo.setAttribute("readonly", true);
+
+            var divNumeroEquipo = document.createElement("div");
+            divNumeroEquipo.setAttribute("class", "col-lg-2 col-md-2 col-sm-12 col-xs-12");
+            var inputNumeroEquipo = document.createElement("input");
+            inputNumeroEquipo.setAttribute("type", "text");
+            inputNumeroEquipo.setAttribute("class", "form-control");
+            inputNumeroEquipo.setAttribute("name", "equipo_numero[" + equipo_id + "]");
+            inputNumeroEquipo.setAttribute("id", "equipo_numero_" + equipo_id);
+            inputNumeroEquipo.setAttribute("value", numero);
+
+            divDenominacionEquipo.appendChild(inputDenominacionEquipo);
+            divZonaEquipo.appendChild(inputZonaEquipo);
+            divNumeroEquipo.appendChild(inputNumeroEquipo);
+            divConfigurarEquipo.appendChild(divDenominacionEquipo);
+            divConfigurarEquipo.appendChild(divZonaEquipo);
+            divConfigurarEquipo.appendChild(divNumeroEquipo);
+            formConfigurarZona.appendChild(divConfigurarEquipo);
+            
+
+
+            console.log(equipo_denominacion);
+            array_ids.push(equipo_id);
+        } 
+    }
+</script> 

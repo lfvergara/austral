@@ -1,0 +1,26 @@
+<form class="form" id="formulario_agregar_integrante" method="post" action="{url_app}/equipo/guardar_integrante">
+    <div class="form-group col-lg-12">
+        <label>Integrante</label>
+        <input type="text" class="form-control" name="denominacion" id="denominacion" required>
+    </div>
+    <div class="form-group col-lg-12">
+        <label>Documento</label>
+        <input type="text" class="form-control" name="documento" id="documento" required>
+    </div>
+    <div class="form-group col-lg-12">
+        <label>Curso</label>
+        <input type="text" class="form-control" name="curso" id="curso" required>
+    </div>
+    <div class="form-group col-lg-6">
+        <label>Teléfono</label>
+        <input type="text" class="form-control" name="infocontacto[Teléfono]" required>
+    </div>
+    <div class="form-group col-lg-6">
+        <label>Email</label>
+        <input type="text" class="form-control" name="infocontacto[Email]" required>
+    </div>
+    <div class="form-group col-lg-12" style="margin-top: 2%;" align="right">
+        <input type="hidden" name="equipo_id" id="equipo_id" value="{equipo-equipo_id}">
+        <button class="btn btn-app" type="submit"><i class="fa fa-save"></i> Agregar</button>
+    </div>
+</form>  

@@ -1,0 +1,58 @@
+<!--DATA TABLE-->
+<link href="{url_static}vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="{url_static}vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+<!--DATA TABLE-->
+<div class="col-lg-12">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/competencia/home"><i class="fa fa-home"></i> HOME</a></li>
+    </ul>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-cogs"></i>&nbsp;&nbsp; COMUNICADOS</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><i class="fa fa-calendar"></i> {fecha_dia_semana} {fecha_dia} de {fecha_mes} del {fecha_anio}</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table id="tbl_comunicado" class="table table-striped table-bordered">
+                <thead>
+                    <tr style="font-size: 12px;">
+                        <th>#</th>
+                        <th>Comunicado</th>
+                        <th>Contenido</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tbl_comunicado}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" id="div_comunicado_pdf"></div>
+<script src="{url_static}vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="{url_static}vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+        $('#tbl_comunicado').dataTable( {
+            "aaSorting": [[ 0, "asc" ]]
+          , "iDisplayLength":15
+        } );
+    } );
+
+    function verComunicado(comunicado_id) {
+        var contenido_comunicado = $.ajax({
+            url: '{url_app}/competencia/ver_comunicado/' + comunicado_id,
+                dataType: 'text',
+                async: false
+        }).responseText;
+
+        document.getElementById("div_comunicado_pdf").innerHTML = contenido_comunicado;
+    }
+</script>

@@ -1,0 +1,18 @@
+<form class="form" id="formulario_guardar" method="post" action="{url_app}/equipo/guardar_zona">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Equipo</label>
+        <input type="text" class="form-control" id="denominacion" name="denominacion" value="{equipo-denominacion}" readonly>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Zona</label>
+        <input type="number" class="form-control" id="zona" name="zona" value="{equipo-zona}" required>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Equipo</label>
+        <input type="number" class="form-control" id="numero" name="numero" value="{equipo-numero}" required>
+    </div>
+    <div class="col-lg-12" style="margin-top: 2%;" align="right">
+        <input type="hidden" name="equipo_id" value="{equipo-equipo_id}">
+        <button type="submit" class="btn btn-app"><i class="fa fa-save"></i> Guardar</button>
+    </div>
+</form>

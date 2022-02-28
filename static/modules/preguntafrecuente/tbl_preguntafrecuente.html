@@ -1,0 +1,14 @@
+<!--TBL_PREGUNTAFRECUENTE-->
+<tr style="font-size: 12px;">
+    <td>{preguntafrecuente-ubicacion}</td>
+    <td>{preguntafrecuente-pregunta}</td>
+    <td>{preguntafrecuente-contenido}</td>
+    <td><strong>{preguntafrecuente-fecha}</strong> {preguntafrecuente-hora}</td>
+    <td>
+        <center>
+            <button class="btn btn-warning btn-xs" onclick="confirma_formulario(3, '{url_app}/preguntafrecuente/editar/{preguntafrecuente-preguntafrecuente_id}');" title="Editar pregunta frecuente"><i class="fa fa-edit"></i></button>
+            <button class="btn btn-danger btn-xs" onclick="confirma_formulario(4, '{url_app}/preguntafrecuente/eliminar/{preguntafrecuente-preguntafrecuente_id}');" title="Eliminar pregunta frecuente"><i class="fa fa-trash-o"></i></button>
+        </center>
+    </td>
+</tr>
+<!--TBL_PREGUNTAFRECUENTE-->

@@ -1,0 +1,15 @@
+<!--TBL_HERRAMIENTA-->
+<tr style="font-size: 12px;">
+    <td>{herramienta-ubicacion}</td>
+    <td>{herramienta-denominacion}</td>
+    <td>{herramienta-contenido}</td>
+    <td><strong>{herramienta-fecha}</strong> {herramienta-hora}</td>
+    <td>
+        <center>
+            <button class="btn btn-warning btn-xs" onclick="confirma_formulario(3, '{url_app}/herramienta/editar/{herramienta-herramienta_id}');" title="Editar herramienta"><i class="fa fa-edit"></i></button>
+            <button class="btn btn-dark btn-xs" onclick="location.href='{url_app}/herramienta/consultar/{herramienta-herramienta_id}';" title="Consultar herramienta"><i class="fa fa-eye"></i></button>
+            <button class="btn btn-danger btn-xs" onclick="confirma_formulario(4, '{url_app}/herramienta/eliminar/{herramienta-herramienta_id}');" title="Eliminar herramienta"><i class="fa fa-trash-o"></i></button>
+        </center>
+    </td>
+</tr>
+<!--TBL_HERRAMIENTA-->

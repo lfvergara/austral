@@ -1,0 +1,48 @@
+            Reporte de la Compañía NYP for Período 5
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  43989    100%  Decisiones:Precio     $    43
+CBV                $  -9371     21%             Producción    1023 unid.
+                  --------- -------             Marketing  $  8000
+Margen Bruto       $  34618     79%             Inversión  $ 10000
+Marketing          $  -8000     18%             I & D      $  2000
+Depreciación       $  -2558      6%
+I & D              $  -2000      5%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción               1023 unid.
+Interés            $   -398      1%  Capacid. de Fábrica      1278 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  21662     49%  Produc.Costo/Unidad   $  9.16
+Impuestos          $  -5416     12%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  16246     37%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1032 unid.
+Efectivo           $  35617     38%  Ventas Realizadas        1023 unid.
+Inventario         $      0      0%  Ordenes no Realizadas       9 unid.
+Inver. de Capital  $  58592     62%  Precio/Unid. Vendida  $ 43.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 21.83
+Total Activo       $  94209    100%  Margen/Unid.Vendida   $ 21.17
+
+Préstamos          $  14484     15%  Reporte de Inversión:
+Ganancias Reten.   $  56887     60%  Capacid.de Fabr. $  51150    1278 unid.
+Capital            $  22838     24%  Inversión Neta   $   7442     186 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  94209    100%  Próx. Capacidad  $  58592    1465 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  36728
+Utilidad Neta      $  16246
+Depreciación       $   2558
+Invers. de Capital $ -10000
+Cambio de Invent.  $      0
+Préstamo Neto      $  -9915
+                  ---------
+Caja Final         $  35617
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

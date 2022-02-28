@@ -1,0 +1,21 @@
+<form class="form" id="formulario_editar_integrante" method="post" action="{url_app}/equipo/actualizar_integrante">
+    <div class="form-group col-lg-12">
+        <label>Integrante</label>
+        <input type="text" class="form-control" name="denominacion" id="denominacion" value="{integrante-denominacion}" required>
+    </div>
+    <div class="form-group col-lg-12">
+        <label>Documento</label>
+        <input type="text" class="form-control" name="documento" id="documento" value="{integrante-documento}" required>
+    </div>
+    <div class="form-group col-lg-12">
+        <label>Curso</label>
+        <input type="text" class="form-control" name="curso" id="curso" value="{integrante-curso}" required>
+    </div>
+    {lst_infocontacto}
+    <div class="form-group col-lg-12" style="margin-top: 2%;" align="right">
+        <input type="hidden" name="integrante_id" value="{integrante-integrante_id}">
+        <input type="hidden" name="equipo_id" id="equipo_integrante_id">
+        <a href="{url_app}/equipo/eliminar_integrante/{integrante-integrante_id}" class="btn btn-danger btn-app" style="background: #d9534f; border-color: #d43f3a; color: #FFF;"><i class="fa fa-trash-o" style="color: #FFF;"></i> Quitar</a>
+        <button class="btn btn-app" type="submit"><i class="fa fa-edit"></i> Editar</button>
+    </div>
+</form>  

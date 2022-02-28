@@ -1,0 +1,48 @@
+            Reporte de la Compañía ATENEA for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  23940    100%  Decisiones:Precio     $    57
+CBV                $  -7560     32%             Producción     420 unid.
+                  --------- -------             Marketing  $  1800
+Margen Bruto       $  16380     68%             Inversión  $  8850
+Marketing          $  -1800      8%             I & D      $ 10000
+Depreciación       $  -1050      4%
+I & D              $ -10000     42%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -658      3%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   2872     12%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -718      3%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   2154      9%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         425 unid.
+Efectivo           $  21514     43%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas       5 unid.
+Inver. de Capital  $  28800     57%  Precio/Unid. Vendida  $ 57.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 50.16
+Total Activo       $  50314    100%  Margen/Unid.Vendida   $  6.84
+
+Préstamos          $  23939     48%  Reporte de Inversión:
+Ganancias Reten.   $   3537      7%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     45%  Inversión Neta   $   7800     195 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  50314    100%  Próx. Capacidad  $  28800     720 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   2154
+Depreciación       $   1050
+Invers. de Capital $  -8850
+Cambio de Invent.  $      0
+Préstamo Neto      $  15281
+                  ---------
+Caja Final         $  21514
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

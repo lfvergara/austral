@@ -1,0 +1,52 @@
+            Reporte de la Compañía ARTEMISA for Período 3
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  40815    100%  Decisiones:Precio     $    45
+CBV                $ -10449     26%             Producción     907 unid.
+                  --------- -------             Marketing  $  4000
+Margen Bruto       $  30366     74%             Inversión  $ 13000
+Marketing          $  -4000     10%             I & D      $  4000
+Depreciación       $  -2015      5%
+I & D              $  -4000     10%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                907 unid.
+Interés            $   -828      2%  Capacid. de Fábrica      1007 unid.
+                  --------- -------  Capacid. Utilizada        90%
+Utilid.ant.de Imp. $  19523     48%  Produc.Costo/Unidad   $ 11.52
+Impuestos          $  -4881     12%  Inventario                  0 unid.
+                  --------- -------  Empleados                  95 trabaj.
+Utilidad Neta      $  14642     36%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         945 unid.
+Efectivo           $  33091     39%  Ventas Realizadas         907 unid.
+Inventario         $      0      0%  Ordenes no Realizadas      38 unid.
+Inver. de Capital  $  51287     61%  Precio/Unid. Vendida  $ 45.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 23.48
+Total Activo       $  84378    100%  Margen/Unid.Vendida   $ 21.52
+
+Préstamos          $  30099     36%  Reporte de Inversión:
+Ganancias Reten.   $  31441     37%  Capacid.de Fabr. $  40302    1007 unid.
+Capital            $  22838     27%  Inversión Neta   $  10985     275 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  84378    100%  Próx. Capacidad  $  51287    1282 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  27821
+Utilidad Neta      $  14642
+Depreciación       $   2015
+Invers. de Capital $ -13000
+Cambio de Invent.  $      0
+Préstamo Neto      $   1612
+                  ---------
+Caja Final         $  33091
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
+ Su producción est  por encima del 5 23601el costo mínimo por unidad, del nivel 
+ de producción. Ud. podría reducir la producción o incrementar la capacidad 
+ para lograr un costo mínimo por unidad.
+

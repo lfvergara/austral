@@ -1,0 +1,15 @@
+<!--TBL_COMUNICADO-->
+<tr style="font-size: 12px;">
+    <td>{comunicado-ubicacion}</td>
+    <td>{comunicado-denominacion}</td>
+    <td>{comunicado-contenido}</td>
+    <td><strong>{comunicado-fecha}</strong> {comunicado-hora}</td>
+    <td>
+        <center>
+            <a class="btn btn-dark btn-xs" href="{url_app}/comunicado/descargar/file.php?f=comunicado_archivos_{comunicado-comunicado_id}&a=d" title="Ver comunicado" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+            <button class="btn btn-warning btn-xs" onclick="confirma_formulario(3, '{url_app}/comunicado/editar/{comunicado-comunicado_id}');" title="Editar comunicado"><i class="fa fa-edit"></i></button>
+            <button class="btn btn-danger btn-xs" onclick="confirma_formulario(4, '{url_app}/comunicado/eliminar/{comunicado-comunicado_id}');" title="Eliminar comunicado"><i class="fa fa-trash-o"></i></button>
+        </center>
+    </td>
+</tr>
+<!--TBL_COMUNICADO-->

@@ -1,0 +1,51 @@
+            Reporte de la Compañía PORTECHA for Período 3
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  33024    100%  Decisiones:Precio     $    43
+CBV                $  -8602     26%             Producción     768 unid.
+                  --------- -------             Marketing  $  9000
+Margen Bruto       $  24422     74%             Inversión  $ 13000
+Marketing          $  -9000     27%             I & D      $  4000
+Depreciación       $  -1920      6%
+I & D              $  -4000     12%
+Carga Social       $    -20      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                768 unid.
+Interés            $   -748      2%  Capacid. de Fábrica       960 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   8734     26%  Produc.Costo/Unidad   $ 11.20
+Impuestos          $  -2184      7%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   6550     20%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1331 unid.
+Efectivo           $  28152     36%  Ventas Realizadas         768 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     563 unid.
+Inver. de Capital  $  49482     64%  Precio/Unid. Vendida  $ 43.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 31.60
+Total Activo       $  77634    100%  Margen/Unid.Vendida   $ 11.40
+
+Préstamos          $  27217     35%  Reporte de Inversión:
+Ganancias Reten.   $  27579     36%  Capacid.de Fabr. $  38402     960 unid.
+Capital            $  22838     29%  Inversión Neta   $  11080     277 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  77634    100%  Próx. Capacidad  $  49482    1237 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  33789
+Utilidad Neta      $   6550
+Depreciación       $   1920
+Invers. de Capital $ -13000
+Cambio de Invent.  $      0
+Préstamo Neto      $  -1108
+                  ---------
+Caja Final         $  28152
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

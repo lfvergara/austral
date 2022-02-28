@@ -1,0 +1,107 @@
+<div class="col-lg-12 hidden-print">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/competencia/home"><i class="fa fa-home"></i> HOME</a></li>
+    </ul>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-bar-chart"></i>&nbsp;&nbsp; REPORTE DE LA INDUSTRIA: {equipo-denominacion}</h2>
+                <ul class="nav navbar-right panel_toolbox hidden-print" id="ul_btn_print" style="display: none;">
+                    <li><button type="button" class="btn btn-success btn-xs" onclick="window.print();"><i class="fa fa-print"></i> IMPRIMIR</button></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    {gui_cuerpo}
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="div_visor_informeindustria" style="padding-left: 0px; padding-right: 0px;"></div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 hidden-print">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-gamepad"></i>&nbsp;&nbsp; DATOS DE LA COMPETENCIA</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>RONDA: {rondacompetencia-denominacion}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>PERÍODO: {competencia-periodo}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>ZONA: {equipo-zona}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>ESTADO: {estadocompetencia-denominacion}</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp; CENTRO DE INFORMACIÓN</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <p>En esta sección podrás encontrar datos que podrán ser de gran ayuda para comprender el funcionamiento de la competencia. Recomendamos leas con atención cada punto de esta sección.</p>
+            <hr />
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="{url_app}/competencia/cronograma" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Cronograma</a>
+                <a href="{url_app}/competencia/manual" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Manual</a>
+                <a href="{url_app}/competencia/preguntas_frecuentes" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Preguntas Frecuentes</a>
+                <a href="{url_app}/competencia/herramientas" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Tips & Herramientas</a>
+                <a href="{url_app}/competencia/cronograma" type="button" class="btn btn-primary btn-sm" style="width: 93%;">Tabla de Costos</a>
+            </div>
+        </div>
+    </div>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-bullhorn"></i>&nbsp;&nbsp; CENTRO DE COMUNICACIÓN</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <p>El Centro de Comunicación contiene toda la información publicada durante el curso de la competencia.</p>
+            <hr />
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="{url_app}/competencia/comunicados" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Comunicados</a>
+                <a href="{url_app}/competencia/foro" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Foro/Blog</a>
+                <a href="{url_app}/competencia/contacto" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Contacto Administradores</a>
+                <a href="{url_app}/competencia/mesetimes" type="button" class="btn btn-dark btn-sm" style="width: 45%;">MESE Times</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" charset="utf-8">
+    function mostrarReporte() {
+        var select_periodo = document.getElementById('periodo');
+        var periodo = select_periodo.options[select_periodo.selectedIndex].value;
+
+        if (periodo >= 0 && periodo != 99) {
+            var contenido_informeindustria = $.ajax({
+                url: '{url_app}/competencia/mostrar_reporte_industria_ajax/' + periodo,
+                    dataType: 'text',
+                    async: false
+            }).responseText;
+            document.getElementById("div_visor_informeindustria").innerHTML = contenido_informeindustria;
+            document.getElementById('ul_btn_print').style.display = 'inline-block';
+        } else {
+            document.getElementById('ul_btn_print').style.display = 'none';
+            document.getElementById("div_visor_informeindustria").innerHTML = '';
+            return false;
+        }
+    }
+</script>

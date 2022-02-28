@@ -1,0 +1,89 @@
+<div class="col-lg-12">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/reporte/{panel_general}"><i class="fa fa-home"></i> HOME</a></li>
+        <li><a href="{url_app}/{objeto}/panel">Panel Participantes</a></li>
+    </ul>
+</div>
+<div class="col-md-7 col-sm-12 col-xs-12">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_title">
+                <h2><i class="fa fa-plus"></i>&nbsp;&nbsp; Agregar equipo</h2>
+                <ul class="nav navbar-right panel_toolbox">
+                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a></li>
+                    <li><a class="close-link"><i class="fa fa-close"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+            <div class="x_content">
+                <div class=" form">
+                    <form class="form" id="formulario_guardar" method="post" action="{url_app}/equipo/guardar">
+                        <div class="form-group col-lg-8">
+                            <label>Nombre</label>
+                            <input type="text" class="form-control" name="equipo_denominacion" id="equipo_denominacion" required>
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label>Usuario</label>
+                            <input type="text" class="form-control" name="usuario" id="usuario" style="text-transform:lowercase;" onkeyup="javascript:this.value=this.value.toLowerCase();" required>
+                        </div>
+                        <div class="form-group col-lg-12">
+                            <label>Asesor</label>
+                            <input type="text" class="form-control" name="equipo_asesor" id="equipo_asesor" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Email Oficial</label>
+                            <input type="text" class="form-control" name="infocontacto_equipo[Email Oficial]" id="" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Email Alternativo</label>
+                            <input type="text" class="form-control" name="infocontacto_equipo[Email Alternativo]" id="" required>
+                        </div>
+                        
+                        <h2><i class="fa fa-plus"></i>&nbsp;&nbsp; Agregar escuela</h2>
+                        <div class="form-group col-lg-12">
+                            <label>Institución</label>
+                            <input type="text" class="form-control" name="escuela_denominacion" id="escuela_denominacion" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Rector</label>
+                            <input type="text" class="form-control" name="rector" id="rector" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Asesor</label>
+                            <input type="text" class="form-control" name="escuela_asesor" id="escuela_asesor" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Provincia</label>
+                            <select class="form-control m-bot15" name="provincia" required>
+                                {slt_provincia}
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Dirección</label>
+                            <input type="text" class="form-control" name="direccion" id="direccion" required>
+                        </div>
+                        <div class="form-group col-lg-8">
+                            <label>Localidad</label>
+                            <input type="text" class="form-control" name="ciudad" id="ciudad" required>
+                        </div>
+                        <div class="form-group col-lg-4">
+                            <label>CP</label>
+                            <input type="number" class="form-control" name="codigopostal" id="codigopostal" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Teléfono</label>
+                            <input type="text" class="form-control" name="infocontacto_escuela[Teléfono]" id="" required>
+                        </div>
+                        <div class="form-group col-lg-6">
+                            <label>Email</label>
+                            <input type="text" class="form-control" name="infocontacto_escuela[Email]" id="" required>
+                        </div>
+                        <div class="form-group col-lg-12" style="margin-top: 2%;" align="right">
+                            <button class="btn btn-app" type="submit"><i class="fa fa-save"></i> Guardar</button>
+                        </div>
+                    </form>  
+                </div>            
+            </div>
+        </div>
+    </div>
+</div>

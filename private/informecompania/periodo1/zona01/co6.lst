@@ -1,0 +1,48 @@
+            Reporte de la Compañía CHIDOXX for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  28492    100%  Decisiones:Precio     $    68
+CBV                $  -7542     26%             Producción     420 unid.
+                  --------- -------             Marketing  $  4500
+Margen Bruto       $  20950     74%             Inversión  $ 12050
+Marketing          $  -4500     16%             I & D      $  9400
+Depreciación       $  -1050      4%
+I & D              $  -9400     33%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -804      3%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   5196     18%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $  -1299      5%  Inventario                  1 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   3897     14%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         419 unid.
+Efectivo           $  25339     44%  Ventas Realizadas         419 unid.
+Inventario         $     18      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  32000     56%  Precio/Unid. Vendida  $ 68.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 55.60
+Total Activo       $  57357    100%  Margen/Unid.Vendida   $ 12.40
+
+Préstamos          $  29239     51%  Reporte de Inversión:
+Ganancias Reten.   $   5280      9%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     40%  Inversión Neta   $  11000     275 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  57357    100%  Próx. Capacidad  $  32000     800 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   3897
+Depreciación       $   1050
+Invers. de Capital $ -12050
+Cambio de Invent.  $    -18
+Préstamo Neto      $  20581
+                  ---------
+Caja Final         $  25339
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

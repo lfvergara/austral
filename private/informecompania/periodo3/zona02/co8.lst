@@ -1,0 +1,51 @@
+            Reporte de la Compañía HERMES for Período 3
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  43524    100%  Decisiones:Precio     $    62
+CBV                $  -7778     18%             Producción     780 unid.
+                  --------- -------             Marketing  $  6500
+Margen Bruto       $  35746     82%             Inversión  $ 12950
+Marketing          $  -6500     15%             I & D      $ 10000
+Depreciación       $  -1950      4%
+I & D              $ -10000     23%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                780 unid.
+Interés            $  -1047      2%  Capacid. de Fábrica       975 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  16249     37%  Produc.Costo/Unidad   $ 11.08
+Impuestos          $  -4062      9%  Inventario                 78 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  12187     28%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         702 unid.
+Efectivo           $  36465     42%  Ventas Realizadas         702 unid.
+Inventario         $    864      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  50000     57%  Precio/Unid. Vendida  $ 62.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 38.85
+Total Activo       $  87329    100%  Margen/Unid.Vendida   $ 23.15
+
+Préstamos          $  38080     44%  Reporte de Inversión:
+Ganancias Reten.   $  26411     30%  Capacid.de Fabr. $  39000     975 unid.
+Capital            $  22838     26%  Inversión Neta   $  11000     275 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  87329    100%  Próx. Capacidad  $  50000    1250 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  35532
+Utilidad Neta      $  12187
+Depreciación       $   1950
+Invers. de Capital $ -12950
+Cambio de Invent.  $   -864
+Préstamo Neto      $    611
+                  ---------
+Caja Final         $  36465
+
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+

@@ -1,0 +1,14 @@
+<!--TBL_MESETIME-->
+<tr style="font-size: 12px;">
+    <td>{mesetime-ubicacion}</td>
+    <td>{mesetime-denominacion}</td>
+    <td><strong>{mesetime-fecha}</strong> {mesetime-hora}</td>
+    <td>
+        <center>
+            <a class="btn btn-dark btn-xs" href="{url_app}/mesetime/descargar/file.php?f=mesetime_archivos_{mesetime-mesetime_id}&a=d" title="Ver mesetime" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+            <button class="btn btn-warning btn-xs" onclick="confirma_formulario(3, '{url_app}/mesetime/editar/{mesetime-mesetime_id}');" title="Editar mesetime"><i class="fa fa-edit"></i></button>
+            <button class="btn btn-danger btn-xs" onclick="confirma_formulario(4, '{url_app}/mesetime/eliminar/{mesetime-mesetime_id}');" title="Eliminar mesetime"><i class="fa fa-trash-o"></i></button>
+        </center>
+    </td>
+</tr>
+<!--TBL_MESETIME-->

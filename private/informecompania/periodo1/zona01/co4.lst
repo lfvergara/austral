@@ -1,0 +1,51 @@
+            Reporte de la Compañía TRES for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  20160    100%  Decisiones:Precio     $    48
+CBV                $  -7560     38%             Producción     420 unid.
+                  --------- -------             Marketing  $  1850
+Margen Bruto       $  12600     63%             Inversión  $ 12950
+Marketing          $  -1850      9%             I & D      $ 10000
+Depreciación       $  -1050      5%
+I & D              $ -10000     50%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -772      4%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  -1072     -4%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $      0      0%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  -1072     -4%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         806 unid.
+Efectivo           $  18606     36%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     386 unid.
+Inver. de Capital  $  32900     64%  Precio/Unid. Vendida  $ 48.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 50.55
+Total Activo       $  51506    100%  Margen/Unid.Vendida   $ -2.55
+
+Préstamos          $  28089     55%  Reporte de Inversión:
+Ganancias Reten.   $    579      1%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     44%  Inversión Neta   $  11900     298 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  51506    100%  Próx. Capacidad  $  32900     822 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -1072
+Depreciación       $   1050
+Invers. de Capital $ -12950
+Cambio de Invent.  $      0
+Préstamo Neto      $  19431
+                  ---------
+Caja Final         $  18606
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

@@ -1,0 +1,51 @@
+            Reporte de la Compañía NYP for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  21000    100%  Decisiones:Precio     $    50
+CBV                $  -7560     36%             Producción     420 unid.
+                  --------- -------             Marketing  $  1050
+Margen Bruto       $  13440     64%             Inversión  $ 10000
+Marketing          $  -1050      5%             I & D      $   825
+Depreciación       $  -1050      5%
+I & D              $   -825      4%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -417      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  10098     48%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $  -2525     12%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   7573     36%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         750 unid.
+Efectivo           $  17008     36%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     330 unid.
+Inver. de Capital  $  29950     64%  Precio/Unid. Vendida  $ 50.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 25.96
+Total Activo       $  46958    100%  Margen/Unid.Vendida   $ 24.04
+
+Préstamos          $  15164     32%  Reporte de Inversión:
+Ganancias Reten.   $   8956     19%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     49%  Inversión Neta   $   8950     224 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  46958    100%  Próx. Capacidad  $  29950     749 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   7573
+Depreciación       $   1050
+Invers. de Capital $ -10000
+Cambio de Invent.  $      0
+Préstamo Neto      $   6506
+                  ---------
+Caja Final         $  17008
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

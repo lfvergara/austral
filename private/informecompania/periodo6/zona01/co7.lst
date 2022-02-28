@@ -1,0 +1,51 @@
+            Reporte de la Compañía IRONBAD for Período 6
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  47625    100%  Decisiones:Precio     $    25
+CBV                $ -16231     34%             Producción    1160 unid.
+                  --------- -------             Marketing  $ 12000
+Margen Bruto       $  31394     66%             Inversión  $     1
+Marketing          $ -12000     25%             I & D      $     1
+Depreciación       $  -2900      6%
+I & D              $     -1      0%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción               1160 unid.
+Interés            $    673      0%  Capacid. de Fábrica      1449 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  17166     36%  Produc.Costo/Unidad   $  8.43
+Impuestos          $  -4292      9%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  12874     27%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        2113 unid.
+Efectivo           $  44741     45%  Ventas Realizadas        1905 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     208 unid.
+Inver. de Capital  $  55100     55%  Precio/Unid. Vendida  $ 25.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 15.99
+Total Activo       $  99841    100%  Margen/Unid.Vendida   $  9.01
+
+Préstamos          $      0      0%  Reporte de Inversión:
+Ganancias Reten.   $  77003     77%  Capacid.de Fabr. $  57999    1449 unid.
+Capital            $  22838     23%  Inversión Neta   $  -2899     -72 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  99841    100%  Próx. Capacidad  $  55100    1378 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  33677
+Utilidad Neta      $  12874
+Depreciación       $   2900
+Invers. de Capital $     -1
+Cambio de Invent.  $   6446
+Préstamo Neto      $ -11155
+                  ---------
+Caja Final         $  44741
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

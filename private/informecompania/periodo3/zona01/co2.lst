@@ -1,0 +1,52 @@
+            Reporte de la Compañía TINA for Período 3
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  51712    100%  Decisiones:Precio     $    64
+CBV                $  -9033     17%             Producción     806 unid.
+                  --------- -------             Marketing  $  8000
+Margen Bruto       $  42679     83%             Inversión  $ 13000
+Marketing          $  -8000     15%             I & D      $  8000
+Depreciación       $  -2015      4%
+I & D              $  -8000     15%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $   -170      0%  Producción                806 unid.
+Interés            $  -1182      2%  Capacid. de Fábrica      1007 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  23312     45%  Produc.Costo/Unidad   $ 10.82
+Impuestos          $  -5828     11%  Inventario                170 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  17484     34%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         808 unid.
+Efectivo           $  42518     44%  Ventas Realizadas         808 unid.
+Inventario         $   1897      2%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  51287     54%  Precio/Unid. Vendida  $ 64.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 35.15
+Total Activo       $  95702    100%  Margen/Unid.Vendida   $ 28.85
+
+Préstamos          $  42969     45%  Reporte de Inversión:
+Ganancias Reten.   $  29895     31%  Capacid.de Fabr. $  40302    1007 unid.
+Capital            $  22838     24%  Inversión Neta   $  10985     275 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  95702    100%  Próx. Capacidad  $  51287    1282 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  30122
+Utilidad Neta      $  17484
+Depreciación       $   2015
+Invers. de Capital $ -13000
+Cambio de Invent.  $    313
+Préstamo Neto      $   5584
+                  ---------
+Caja Final         $  42518
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
+ En este período su inventario excede 10 23601e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+

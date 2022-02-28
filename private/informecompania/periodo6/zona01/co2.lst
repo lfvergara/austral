@@ -1,0 +1,51 @@
+            Reporte de la Compañía TINA for Período 6
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  47634    100%  Decisiones:Precio     $    34
+CBV                $ -12161     26%             Producción    1114 unid.
+                  --------- -------             Marketing  $ 12000
+Margen Bruto       $  35473     74%             Inversión  $     1
+Marketing          $ -12000     25%             I & D      $     1
+Depreciación       $  -2786      6%
+I & D              $     -1      0%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $   -103      0%  Producción               1114 unid.
+Interés            $    787     -1%  Capacid. de Fábrica      1393 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  21370     45%  Produc.Costo/Unidad   $  8.65
+Impuestos          $  -5343     11%  Inventario                103 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  16027     34%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1401 unid.
+Efectivo           $  53079     50%  Ventas Realizadas        1401 unid.
+Inventario         $    902      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  52938     50%  Precio/Unid. Vendida  $ 34.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 18.75
+Total Activo       $ 106919    100%  Margen/Unid.Vendida   $ 15.25
+
+Préstamos          $      0      0%  Reporte de Inversión:
+Ganancias Reten.   $  84081     79%  Capacid.de Fabr. $  55723    1393 unid.
+Capital            $  22838     21%  Inversión Neta   $  -2785     -70 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $ 106919    100%  Próx. Capacidad  $  52938    1323 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  39371
+Utilidad Neta      $  16027
+Depreciación       $   2786
+Invers. de Capital $     -1
+Cambio de Invent.  $   2524
+Préstamo Neto      $  -7628
+                  ---------
+Caja Final         $  53079
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

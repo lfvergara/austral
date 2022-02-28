@@ -1,0 +1,24 @@
+<!--LST_FORM_INFOCONTACTO-->
+<div class="col-md-6 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-edit"></i>&nbsp;&nbsp; Editar Contacto Equipo</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <div class=" form">
+                <form class="form" id="formulario_guardar" method="post" action="{url_app}/equipo/actualizar_equipo">
+                    <div class="form-group col-lg-12">
+                        <label>{infocontacto-denominacion}</label>
+                        <input type="text" class="form-control" name="valor" id="valor" value="{infocontacto-valor}" required>
+                    </div>
+                    <div class="form-group col-lg-12" style="margin-top: 2%;" align="right">
+                        <input type="hidden" name="infocontacto_id" value="{infocontacto-infocontacto_id}">
+                        <button class="btn btn-app" type="submit"><i class="fa fa-edit"></i> Editar</button>
+                    </div>
+                </form>  
+            </div>            
+        </div>
+    </div>
+</div>
+<!--LST_FORM_INFOCONTACTO-->

@@ -1,0 +1,51 @@
+            Reporte de la Compañía BUSSINES for Período 5
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  57372    100%  Decisiones:Precio     $    42
+CBV                $ -11857     21%             Producción    1140 unid.
+                  --------- -------             Marketing  $ 10000
+Margen Bruto       $  45515     79%             Inversión  $  9850
+Marketing          $ -10000     17%             I & D      $  4000
+Depreciación       $  -2850      5%
+I & D              $  -4000      7%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción               1140 unid.
+Interés            $   -496      1%  Capacid. de Fábrica      1425 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  28169     49%  Produc.Costo/Unidad   $  8.53
+Impuestos          $  -7042     12%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  21127     37%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1404 unid.
+Efectivo           $  46987     42%  Ventas Realizadas        1366 unid.
+Inventario         $      0      0%  Ordenes no Realizadas      38 unid.
+Inver. de Capital  $  64000     58%  Precio/Unid. Vendida  $ 42.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 21.38
+Total Activo       $ 110987    100%  Margen/Unid.Vendida   $ 20.62
+
+Préstamos          $  18039     16%  Reporte de Inversión:
+Ganancias Reten.   $  70110     63%  Capacid.de Fabr. $  57000    1425 unid.
+Capital            $  22838     21%  Inversión Neta   $   7000     175 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $ 110987    100%  Próx. Capacidad  $  64000    1600 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  38809
+Utilidad Neta      $  21127
+Depreciación       $   2850
+Invers. de Capital $  -9850
+Cambio de Invent.  $   2136
+Préstamo Neto      $  -8085
+                  ---------
+Caja Final         $  46987
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

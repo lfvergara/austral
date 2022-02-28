@@ -1,0 +1,56 @@
+            Reporte de la Compañía TOROS for Período 5
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  60060    100%  Decisiones:Precio     $    42
+CBV                $ -16431     27%             Producción    1420 unid.
+                  --------- -------             Marketing  $  8500
+Margen Bruto       $  43629     73%             Inversión  $  5000
+Marketing          $  -8500     14%             I & D      $   500
+Depreciación       $  -2841      5%
+I & D              $   -500      1%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $   -408      1%  Producción               1420 unid.
+Interés            $   -878      1%  Capacid. de Fábrica      1420 unid.
+                  --------- -------  Capacid. Utilizada       100%
+Utilid.ant.de Imp. $  30502     51%  Produc.Costo/Unidad   $ 11.30
+Impuestos          $  -7626     13%  Inventario                408 unid.
+                  --------- -------  Empleados                 105 trabaj.
+Utilidad Neta      $  22876     38%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1430 unid.
+Efectivo           $  48306     43%  Ventas Realizadas        1430 unid.
+Inventario         $   4694      4%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  58982     53%  Precio/Unid. Vendida  $ 42.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 20.67
+Total Activo       $ 111982    100%  Margen/Unid.Vendida   $ 21.33
+
+Préstamos          $  31914     28%  Reporte de Inversión:
+Ganancias Reten.   $  57230     51%  Capacid.de Fabr. $  56823    1420 unid.
+Capital            $  22838     20%  Inversión Neta   $   2159      54 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $ 111982    100%  Próx. Capacidad  $  58982    1475 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  37091
+Utilidad Neta      $  22876
+Depreciación       $   2841
+Invers. de Capital $  -5000
+Cambio de Invent.  $    384
+Préstamo Neto      $  -9886
+                  ---------
+Caja Final         $  48306
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
+ En este período su inventario excede 10 23601e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+
+ Su producción est  por encima del 5 23601el costo mínimo por unidad, del nivel 
+ de producción. Ud. podría reducir la producción o incrementar la capacidad 
+ para lograr un costo mínimo por unidad.
+

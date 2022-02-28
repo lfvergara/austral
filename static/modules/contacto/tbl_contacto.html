@@ -1,0 +1,13 @@
+<!--TBL_CONTACTO-->
+<tr style="font-size: 12px;">
+    <td>{contacto-equipo}</td>
+    <td>{contacto-correoelectronico}</td>
+    <td><strong>{contacto-fecha}</strong> {contacto-hora}</td>
+    <td>
+        <center>
+            <button class="btn btn-primary btn-xs" onClick="verMensaje({contacto-contacto_id});" title="Ver mensaje" target="_blank"><i class="fa fa-at"></i></a>
+            <button class="btn btn-danger btn-xs" onclick="confirma_formulario(4, '{url_app}/contacto/eliminar/{contacto-contacto_id}');" title="Eliminar mensaje"><i class="fa fa-trash-o"></i></button>
+        </center>
+    </td>
+</tr>
+<!--TBL_CONTACTO-->

@@ -1,0 +1,28 @@
+<form class="form" id="formulario_guardar" method="post" action="{url_app}/equipodecision/actualizar">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Precio</label>
+        <input type="text" class="form-control" id="precio" name="precio" value="{equipodecision-precio}" required>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Producción</label>
+        <input type="text" class="form-control" id="produccion" name="produccion" value="{equipodecision-produccion}" required>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Marketing</label>
+        <input type="text" class="form-control" id="marketing" name="marketing" value="{equipodecision-marketing}" required>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>Inversión</label>
+        <input type="text" class="form-control" id="inversion" name="inversion" value="{equipodecision-inversion}" required>
+    </div>
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
+        <label>I&D</label>
+        <input type="text" class="form-control" id="iandd" name="iandd" value="{equipodecision-iandd}" required>
+    </div>
+    <div class="col-lg-12" style="margin-top: 2%;" align="right">
+        <input type="hidden" name="equipo_id" value="{equipodecision-equipo_id}">
+        <input type="hidden" name="equipodecision_id" value="{equipodecision-equipodecision_id}">
+        <input type="hidden" name="periodo" value="{equipodecision-periodo}">
+        <button type="submit" class="btn btn-app"><i class="fa fa-edit"></i> Editar</button>
+    </div>
+</form>

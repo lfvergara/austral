@@ -1,0 +1,147 @@
+<!--DATA TABLE-->
+<link href="{url_static}vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+<link href="{url_static}vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+<!--DATA TABLE-->
+<div class="col-lg-12">
+    <ul class="breadcrumb">
+        <li><a href="{url_app}/competencia/home"><i class="fa fa-home"></i> HOME</a></li>
+    </ul>
+</div>
+<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-cogs"></i>&nbsp;&nbsp; TIPS & HERRAMIENTAS</h2>
+            <ul class="nav navbar-right panel_toolbox">
+                <li><i class="fa fa-calendar"></i> {fecha_dia_semana} {fecha_dia} de {fecha_mes} del {fecha_anio}</li>
+            </ul>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table id="tbl_herramienta" class="table table-striped table-bordered">
+                <thead>
+                    <tr style="font-size: 12px;">
+                        <th>#</th>
+                        <th>Tips & Herramientas</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {tbl_herramienta}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-gamepad"></i>&nbsp;&nbsp; DATOS DE LA COMPETENCIA</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <table class="table table-striped">
+                <tbody>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>RONDA: {rondacompetencia-denominacion}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>PERÍODO: {competencia-periodo}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>ZONA: {equipo-zona}</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row"><i class="fa fa-cog"></i></th>
+                        <td>ESTADO: {estadocompetencia-denominacion}</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-newspaper-o"></i>&nbsp;&nbsp; CENTRO DE INFORMACIÓN</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <p>En esta sección podrás encontrar datos que podrán ser de gran ayuda para comprender el funcionamiento de la competencia. Recomendamos leas con atención cada punto de esta sección.</p>
+            <hr />
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="{url_app}/competencia/cronograma" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Cronograma</a>
+                <a href="{url_app}/competencia/manual" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Manual</a>
+                <a href="{url_app}/competencia/preguntas_frecuentes" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Preguntas Frecuentes</a>
+                <a href="{url_app}/competencia/herramientas" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Tips & Herramientas</a>
+                <a href="{url_app}/competencia/cronograma" type="button" class="btn btn-primary btn-sm" style="width: 93%;">Tabla de Costos</a>
+            </div>
+        </div>
+    </div>
+    <div class="x_panel">
+        <div class="x_title">
+            <h2><i class="fa fa-bullhorn"></i>&nbsp;&nbsp; CENTRO DE COMUNICACIÓN</h2>
+            <div class="clearfix"></div>
+        </div>
+        <div class="x_content">
+            <p>El Centro de Comunicación contiene toda la información publicada durante el curso de la competencia.</p>
+            <hr />
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <a href="{url_app}/competencia/comunicados" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Comunicados</a>
+                <a href="{url_app}/competencia/foro" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Foro/Blog</a>
+                <a href="{url_app}/competencia/contacto" type="button" class="btn btn-dark btn-sm" style="width: 45%;">Contacto Administradores</a>
+                <a href="{url_app}/competencia/mesetimes" type="button" class="btn btn-dark btn-sm" style="width: 45%;">MESE Times</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="sistema_alertas">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">HERRAMIENTAS</h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-lg-1">
+                    <center><h1><i class="fa fa-cogs"></i></h1></center>
+                </div>
+                <div class="col-lg-11" id="msj_alerta_modal" style="margin-top: -2%;"></div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Datatables -->
+<script src="{url_static}vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="{url_static}vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+<script src="{url_static}vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+        $('#tbl_herramienta').dataTable( {
+            "aaSorting": [[ 0, "asc" ]]
+          , "iDisplayLength":15
+        } );
+    } );
+
+    function verHerramienta(herramienta_id) {
+        var contenido_herramienta = $.ajax({
+            url: '{url_app}/competencia/ver_herramienta/' + herramienta_id,
+                dataType: 'text',
+                async: false
+        }).responseText;
+
+        $('#sistema_alertas').modal('show');
+        document.getElementById("msj_alerta_modal").innerHTML = contenido_herramienta;
+    }
+</script>

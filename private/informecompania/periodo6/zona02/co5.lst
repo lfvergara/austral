@@ -1,0 +1,51 @@
+            Reporte de la Compañía MCLOVIN for Período 6
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  54252    100%  Decisiones:Precio     $    36
+CBV                $ -12222     23%             Producción    1381 unid.
+                  --------- -------             Marketing  $ 10000
+Margen Bruto       $  42030     77%             Inversión  $  3250
+Marketing          $ -10000     18%             I & D      $     3
+Depreciación       $  -3250      6%
+I & D              $     -3      0%
+Carga Social       $    -60      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción               1381 unid.
+Interés            $    817     -1%  Capacid. de Fábrica      1625 unid.
+                  --------- -------  Capacid. Utilizada        85%
+Utilid.ant.de Imp. $  29534     54%  Produc.Costo/Unidad   $  8.02
+Impuestos          $  -7384     14%  Inventario                  0 unid.
+                  --------- -------  Empleados                  89 trabaj.
+Utilidad Neta      $  22150     41%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1629 unid.
+Efectivo           $  50226     44%  Ventas Realizadas        1507 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     122 unid.
+Inver. de Capital  $  65000     56%  Precio/Unid. Vendida  $ 36.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 16.36
+Total Activo       $ 115226    100%  Margen/Unid.Vendida   $ 19.64
+
+Préstamos          $      0      0%  Reporte de Inversión:
+Ganancias Reten.   $  92388     80%  Capacid.de Fabr. $  65000    1625 unid.
+Capital            $  22838     20%  Inversión Neta   $      0       0 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $ 115226    100%  Próx. Capacidad  $  65000    1625 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  40884
+Utilidad Neta      $  22150
+Depreciación       $   3250
+Invers. de Capital $  -3250
+Cambio de Invent.  $   1149
+Préstamo Neto      $ -13957
+                  ---------
+Caja Final         $  50226
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+
