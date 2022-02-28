@@ -1,0 +1,67 @@
+<form class="form" id="formulario_guardar" method="post" action="{url_app}/sitio/continuar_inscripcion">
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Equipo</label>
+        <input type="text" class="form-control" name="equipo_denominacion" id="equipo_denominacion" onChange="definirUsuario();" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Usuario</label>
+        <input type="text" class="form-control" name="usuario" id="usuario" style="text-transform:lowercase;" onkeyup="javascript:this.value=this.value.toLowerCase();" required readonly>
+    </div>
+    <div class="form-group" style="width: 100%; float: left;">
+        <label>Asesor</label>
+        <input type="text" class="form-control" name="equipo_asesor" id="equipo_asesor" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Email Oficial</label>
+        <input type="text" class="form-control" name="equipo_email_oficial" id="" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Email Alternativo</label>
+        <input type="text" class="form-control" name="equipo_email_alternativo" id="" required>
+    </div>
+    
+    <div class="form-group" style="width: 100%; float: left;">
+    	<h2><i class="fa fa-plus"></i>&nbsp;&nbsp; Agregar escuela</h2>
+    </div>
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Institución</label>
+        <input type="text" class="form-control" name="escuela_denominacion" id="escuela_denominacion" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Rector</label>
+        <input type="text" class="form-control" name="rector" id="rector" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Asesor</label>
+        <input type="text" class="form-control" name="escuela_asesor" id="escuela_asesor" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Provincia</label>
+        <select class="form-control m-bot15" name="provincia" required>
+            {slt_provincia}
+        </select>
+    </div>
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Dirección</label>
+        <input type="text" class="form-control" name="direccion" id="direccion" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Localidad</label>
+        <input type="text" class="form-control" name="ciudad" id="ciudad" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left; margin-right: 4%;">
+        <label>Teléfono</label>
+        <input type="text" class="form-control" name="escuela_telefono" id="" required>
+    </div>
+    <div class="form-group" style="width: 48%; float: left;">
+        <label>Email</label>
+        <input type="text" class="form-control" name="escuela_email" id="" required>
+    </div>
+    <div class="form-group" style="width: 16%; margin-top: 2%;">
+        <label>CP</label>
+        <input type="text" class="form-control" name="codigopostal" id="codigopostal" required>
+    </div>
+    <div class="form-group col-lg-12" style="margin-top: 2%;" align="right">
+    	<button class="btn btn-app" type="submit"><i class="fa fa-save"></i> Continuar</button>
+    </div>
+</form>

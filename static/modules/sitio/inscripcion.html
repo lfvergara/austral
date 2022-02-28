@@ -1,0 +1,68 @@
+<div class="slideshow-container">
+	<div class="mySlides fade">
+	  	<div class="numbertext"></div>
+		<img src="{url_static}images/1.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>	
+	<div class="mySlides fade">
+		<div class="numbertext"></div>
+		<img src="{url_static}images/2.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>				
+	<div class="mySlides fade">
+		<div class="numbertext"></div>
+		<img src="{url_static}images/3.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>
+	<div class="mySlides fade">
+		  <div class="numbertext"></div>
+		  <img src="{url_static}images/4.jpg" style="width:100%">
+		  <div class="text"></div>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext"></div>
+		<img src="{url_static}images/5.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>	
+	<div class="mySlides fade">
+		<div class="numbertext"></div>
+		<img src="{url_static}images/6.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>
+	<div class="mySlides fade">
+		<div class="numbertext"></div>
+		<img src="{url_static}images/7.jpg" style="width:100%">
+		<div class="text"></div>
+	</div>
+</div>
+<div style="text-align:center; background-color: #111; padding-bottom: 10px; padding-top: 10px;">
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span> 
+	<span class="dot"></span>
+</div>
+<section class="wrapper">
+	<div class="inner">
+		<h2>Inscripción</h2>
+		{formulario_inscripcion}
+	</div>
+</section>
+<script>
+    function definirUsuario() {
+        var equipo = document.getElementById('equipo_denominacion').value;
+        var usuario = equipo.toLowerCase();
+        usuario = usuario.replace(/ /g, "");
+
+        var usuario_final = $.ajax({
+            url: '{url_app}/sitio/generar_usuario/' + usuario,
+                dataType: 'text',
+                async: false
+        }).responseText;
+
+        usuario_final = usuario_final.replace(/ /g, "");
+        document.getElementById('usuario').value = usuario_final;
+    }
+</script>

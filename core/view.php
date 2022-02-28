@@ -39,6 +39,15 @@ abstract class View {
         return $plantilla;
     }
 
+    function render_template_sitio($contenido) {
+        $dict = array("{contenido}"=>$contenido);
+        $plantilla = file_get_contents(TEMPLATE_SITIO);
+        $plantilla = $this->render($dict, $plantilla);
+        $plantilla = str_replace("{url_app}", URL_APP, $plantilla);
+        $plantilla = str_replace("{url_static}", URL_STATIC_SITIO, $plantilla);
+        return $plantilla;
+    }
+
     function render_menu($configuracionmenu_id) {
         $obj_configuracionmenu = HelperMenu::traer_configuracionmenu($configuracionmenu_id);
         $menu_collection = HelperMenu::traer_menu_collection();
