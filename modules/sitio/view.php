@@ -10,6 +10,7 @@ class SitioView extends View {
 		$fecha_ini = $obj_competencia->fecha_inicio_inscripcion;
 		$fecha_fin = $obj_competencia->fecha_fin_inscripcion;
 		$fecha_actual = date('Y-m-d');
+		print_r($obj_competencia);exit;
 
 		if ($fecha_actual >= $fecha_ini AND $fecha_actual <= $fecha_fin) {
 			$gui_inscripcion = file_get_contents("static/modules/sitio/formulario_inscripcion.html");
