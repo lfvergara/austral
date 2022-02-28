@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 # Ambiente del sistema
 const AMBIENTE = "desa";
 const SO_UNIX = true;
