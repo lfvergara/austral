@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/seccion/model.php";
 require_once "modules/seccion/view.php";
 

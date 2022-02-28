@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/herramienta/model.php";
 require_once "modules/herramienta/view.php";
 

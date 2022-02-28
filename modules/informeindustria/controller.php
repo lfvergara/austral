@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/informeindustria/model.php";
 require_once "modules/informeindustria/view.php";
 require_once "modules/equipo/model.php";

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/estadocompetencia/model.php";
 require_once "modules/estadocompetencia/view.php";
 

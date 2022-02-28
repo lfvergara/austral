@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/comunicado/model.php";
 require_once "modules/comunicado/view.php";
 

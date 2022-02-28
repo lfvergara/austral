@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/comentario/model.php";
 require_once "modules/comentario/view.php";
 

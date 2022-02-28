@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/preguntafrecuente/model.php";
 require_once "modules/preguntafrecuente/view.php";
 

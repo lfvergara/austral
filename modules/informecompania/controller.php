@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/informecompania/model.php";
 require_once "modules/informecompania/view.php";
 require_once "modules/equipo/model.php";

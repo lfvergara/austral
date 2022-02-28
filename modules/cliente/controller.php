@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/cliente/model.php";
 require_once "modules/cliente/view.php";
 require_once "modules/provincia/model.php";

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/cronograma/model.php";
 require_once "modules/cronograma/view.php";
 

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/integrante/model.php";
 require_once "modules/integrante/view.php";
 require_once "modules/infocontacto/model.php";

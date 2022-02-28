@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/equipodecision/model.php";
 require_once "modules/equipodecision/view.php";
 require_once "modules/equipo/model.php";

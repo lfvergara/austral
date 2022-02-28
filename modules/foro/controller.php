@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "modules/foro/model.php";
 require_once "modules/foro/view.php";
 
