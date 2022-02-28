@@ -19,9 +19,11 @@ const ALGORITMO_FINAL = 'md5';
 
 # Direcciones a recursos estáticos de interfaz gráfica
 const TEMPLATE = "static/template.html";
+const TEMPLATE_SITIO = "static/template_sitio.html";
 if (SO_UNIX == true) {
 	define('URL_APP', "");
 	define('URL_STATIC', "/static/template/");
+	define('URL_STATIC_SITIO', "/static/template_sitio/");
 	
 	# Directorio private del sistema
 	$url_private = "/var/www/austral/private/";
@@ -30,6 +32,7 @@ if (SO_UNIX == true) {
 } else {
 	define('URL_APP', "/austral");
 	define('URL_STATIC', "/austral/static/template/");
+	define('URL_STATIC_SITIO', "/austral/static/template_sitio/");
 
 	# Directorio private del sistema
 	$url_private = "c:/australFiles/private/";
