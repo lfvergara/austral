@@ -47,6 +47,7 @@ class SitioController {
 	}
 
 	function finalizar_inscripcion() {
+		print_r($_POST);exit;
 		$em = new Escuela();
 		$em->denominacion = filter_input(INPUT_POST, "escuela_denominacion");
 		$em->rector = filter_input(INPUT_POST, "rector");
