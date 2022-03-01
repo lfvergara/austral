@@ -16,14 +16,13 @@ class SitioController {
 		$this->view = new SitioView();
 	}
 
-	function inscripcion($arg=NULL) {
-		print_r($arg);exit;
+	function inscripcion($arg=null) {
 		$flagAlerta = (is_null($arg) OR !isset($arg) OR empty($arg) OR $arg == '') ? 0 : 1;
 		$provincia_collection = Collector()->get('Provincia');
 		$cm = new Competencia();	
 		$cm->competencia_id = 1;
 		$cm->get();
-		$this->view->inscripcion($provincia_collection, $cm);
+		$this->view->inscripcion($provincia_collection, $cm, $flagAlerta);
 	}
 
 	function continuar_inscripcion() {
@@ -45,7 +44,7 @@ class SitioController {
 							 '{escuela_email}'=>filter_input(INPUT_POST, 'escuela_email'),
 							 '{codigopostal}'=>filter_input(INPUT_POST, 'codigopostal'));
 
-		$this->view->continuar_inscripcion($datos_array, $cm, $flagAlerta);
+		$this->view->continuar_inscripcion($datos_array, $cm);
 	}
 
 	function finalizar_inscripcion() {
