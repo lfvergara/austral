@@ -16,7 +16,8 @@ class SitioController {
 		$this->view = new SitioView();
 	}
 
-	function inscripcion() {
+	function inscripcion($arg=NULL) {
+		$flagAlerta = (!is_null($arg) OR !isset($arg) OR empty($arg) OR $arg == '') ? 0 : 1;
 		$provincia_collection = Collector()->get('Provincia');
 		$cm = new Competencia();	
 		$cm->competencia_id = 1;
@@ -210,7 +211,7 @@ class SitioController {
 		$emailHelper = new EmailHelper();
 		$emailHelper->informa_acceso($destino, $array_datos);	
 
-		header("Location: " . URL_APP . "/sitio/home");
+		header("Location: " . URL_APP . "/sitio/inscripcion/1");
 	}
 
 	function generar_usuario($arg) {
