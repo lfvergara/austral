@@ -44,7 +44,7 @@ class SitioController {
 							 '{escuela_email}'=>filter_input(INPUT_POST, 'escuela_email'),
 							 '{codigopostal}'=>filter_input(INPUT_POST, 'codigopostal'));
 
-		$this->view->continuar_inscripcion($datos_array, $cm);
+		$this->view->continuar_inscripcion($datos_array, $cm, $flagAlerta);
 	}
 
 	function finalizar_inscripcion() {

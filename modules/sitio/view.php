@@ -2,7 +2,7 @@
 
 
 class SitioView extends View {
-	function inscripcion($provincia_collection, $obj_competencia) {
+	function inscripcion($provincia_collection, $obj_competencia, $flagAlerta) {
 		$gui = file_get_contents("static/modules/sitio/inscripcion.html");
 		$gui_slt_provincia = file_get_contents("static/common/slt_provincia.html");
 		$gui_slt_provincia = $this->render_regex('SLT_PROVINCIA', $gui_slt_provincia, $provincia_collection);
@@ -10,10 +10,16 @@ class SitioView extends View {
 		$fecha_ini = $obj_competencia->fecha_inicio_inscripcion;
 		$fecha_fin = $obj_competencia->fecha_fin_inscripcion;
 		$fecha_actual = date('Y-m-d');
-		
+
 		if ($fecha_actual >= $fecha_ini AND $fecha_actual <= $fecha_fin) {
 			$gui_inscripcion = file_get_contents("static/modules/sitio/formulario_inscripcion.html");
 			$gui_inscripcion = str_replace('{slt_provincia}', $gui_slt_provincia, $gui_inscripcion);
+			if ($flagAlerta == 1) {
+				$gui_inscripto = file_get_contents("static/modules/sitio/alerta_inscripto.html");
+				$gui_inscripcion = str_replace('{alerta_inscripto}', $gui_inscripto, $gui_inscripcion);
+			} else {
+				$gui_inscripcion = str_replace('{alerta_inscripto}', '', $gui_inscripcion);
+			}
 		} else {
 			$gui_inscripcion = file_get_contents("static/modules/sitio/gui_inscripcion_cerrada.html");
 		}
