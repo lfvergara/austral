@@ -16,9 +16,9 @@ class SitioView extends View {
 			$gui_inscripcion = str_replace('{slt_provincia}', $gui_slt_provincia, $gui_inscripcion);
 			if ($flagAlerta == 1) {
 				$gui_inscripto = file_get_contents("static/modules/sitio/alerta_inscripto.html");
-				$gui_inscripcion = str_replace('{alerta_inscripto}', $gui_inscripto, $gui_inscripcion);
+				$gui = str_replace('{alerta_inscripto}', $gui_inscripto, $gui);
 			} else {
-				$gui_inscripcion = str_replace('{alerta_inscripto}', '', $gui_inscripcion);
+				$gui = str_replace('{alerta_inscripto}', '', $gui);
 			}
 		} else {
 			$gui_inscripcion = file_get_contents("static/modules/sitio/gui_inscripcion_cerrada.html");
