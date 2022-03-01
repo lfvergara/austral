@@ -22,6 +22,7 @@ class SitioView extends View {
 			}
 		} else {
 			$gui_inscripcion = file_get_contents("static/modules/sitio/gui_inscripcion_cerrada.html");
+			$gui = str_replace('{alerta_inscripto}', '', $gui);
 		}
 		
 		$render = str_replace('{formulario_inscripcion}', $gui_inscripcion, $gui);
