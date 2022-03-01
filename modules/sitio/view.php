@@ -6,7 +6,7 @@ class SitioView extends View {
 		$gui = file_get_contents("static/modules/sitio/inscripcion.html");
 		$gui_slt_provincia = file_get_contents("static/common/slt_provincia.html");
 		$gui_slt_provincia = $this->render_regex('SLT_PROVINCIA', $gui_slt_provincia, $provincia_collection);
-
+		print_r($flagAlerta);exit;
 		$fecha_ini = $obj_competencia->fecha_inicio_inscripcion;
 		$fecha_fin = $obj_competencia->fecha_fin_inscripcion;
 		$fecha_actual = date('Y-m-d');
