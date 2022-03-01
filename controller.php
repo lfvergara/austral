@@ -20,6 +20,7 @@ require_once 'core/view.php';
 require_once 'core/standardobject.php';
 require_once 'core/sessions.php';
 require_once "core/helpers/configuracionmenu.php";
+require_once "tools/email.php";
 //if (AMBIENTE == 'desa') error_reporting(0);
 
 

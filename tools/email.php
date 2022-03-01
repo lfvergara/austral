@@ -3,25 +3,32 @@ require_once "common/libs/PHPMailer/class.phpmailer.php";
 
 
 class EmailHelper extends View {
-        public function envia_email($array_datos, $destinos_array) { 
+        public function informa_acceso($destino, $array_datos) { 
                 $gui = file_get_contents("static/mail.html");
                 $fecha_desglosada = $this->descomponer_fecha();
-                $origen = "qManagement@tonka.com.ar";
-                $nombre = "TonKa Informes: qManagement";
+                $origen = "desafioagromese@gmail.com";
+                $nombre = "Desafio Agromese";
 
                 $render = $this->render($fecha_desglosada, $gui);
                 $render = $this->render($array_datos, $render);
                 
                 $mail = new PHPMailer();
-                $mail->From = $origen;
-                $mail->FromName = $nombre;
-                foreach ($destinos_array as $clave=>$valor) $mail->AddAddress($valor);
-                $mail->IsHTML(true);
-                $mail->Subject = utf8_decode("Asignación de riesgo en qManagement");
-                $mail->Body = utf8_decode($render);
                 $mail->IsSMTP();
-                $mail->Host = '172.18.1.29';
+                $mail->SMTPAuth = true;
+                $mail->SMTPSecure = 'ssl';
+                $mail->Host = "smtp.gmail.com";
+                $mail->Port = 465;
+                $mail->Username = 'desafioagromese@gmail.com';
+                $mail->Password = 'JUNIOR1234';
+                $mail->From = 'desafioagromese@gmail.com';
+                $mail->FromName = $nombre;
+                $mail->AddAddress($destino);
+                $mail->Subject = utf8_decode("Desafio Agromese: Accesos");
+                $mail->IsHTML(true);
+                $mail->Body = utf8_decode($render);
                 $mail->Send();
+                # desafioagromese@gmail.com
+                # JUNIOR1234
         }
 }
 ?>

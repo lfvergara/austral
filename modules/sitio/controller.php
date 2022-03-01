@@ -47,7 +47,6 @@ class SitioController {
 	}
 
 	function finalizar_inscripcion() {
-		print_r($_POST);exit;
 		$em = new Escuela();
 		$em->denominacion = filter_input(INPUT_POST, "escuela_denominacion");
 		$em->rector = filter_input(INPUT_POST, "rector");
@@ -203,12 +202,13 @@ class SitioController {
 				$iem = new IntegranteEquipo($eqmf);
 				$iem->save();
 
-				$destino = $correoelectronico_usuario;
-				$array_datos = array("{usuario}"=>$usuario, "{contrasena}"=>$contrasena);
-				$emailHelper = new EmailHelper();
-				$emailHelper->informa_acceso($destino, $array_datos);	
 			}		
 		}
+		
+		$destino = $correoelectronico_usuario;
+		$array_datos = array("{usuario}"=>$usuario, "{contrasena}"=>$contrasena);
+		$emailHelper = new EmailHelper();
+		$emailHelper->informa_acceso($destino, $array_datos);	
 
 		header("Location: " . URL_APP . "/sitio/home");
 	}
