@@ -17,6 +17,7 @@ class SitioController {
 	}
 
 	function inscripcion($arg=NULL) {
+		print_r($arg);exit;
 		$flagAlerta = (is_null($arg) OR !isset($arg) OR empty($arg) OR $arg == '') ? 0 : 1;
 		$provincia_collection = Collector()->get('Provincia');
 		$cm = new Competencia();	
