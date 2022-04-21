@@ -1,27 +1,39 @@
-                  Reporte Industrial    Período 0
+                  Reporte Industrial    Período 1
 
 Unidades                    Cambio    Dolares                         Cambio
 --------                    ------    -------                         ------
-Total Ordenes         3152      0%    Ventas Industr.        $ 94320      0%
-Total Produc.         3144      0%    Precio Promedio        $ 30.00      0%
-Total Vendido         3144      0%    Total Producción       $ 57724      0%
-Capac. Total          4200      0%    Costo Prom Pdun        $ 18.36      0%
-Inventario               0      0%    Total Costo Prom       $ 25.31      0%
+Total Ordenes         4704     49%    Ventas Industr.        $107518     14%
+Total Produc.         3358      7%    Precio Promedio        $ 35.47     18%
+Total Vendido         3031     -3%    Total Producción       $ 62451      8%
+Capac. Total          4200      0%    Costo Prom Pdun        $ 18.60      1%
+Inventario             327      0%    Total Costo Prom       $ 34.82     38%
 
 Productividad               Cambio    Dolares                         Cambio
 -------------               ------    -------                         ------
-Empleo                 628      0%    Tasa Prima                 10%      0%
-Ventas/Empleado   $    150      0%    Préstamo Límite        $ 50000      0%
-Unid./Empleado        5.01      0%    Tasa del Impuesto          25%      0%
-Invers. de Cap.   $ 168000      0%    Imp. Pag. Período      $  3688      0%
-Capacid. Utiliz.       75%      0%    Imp. Pag. Fecha        $  3688      0%
+Empleo                 671      7%    Tasa Prima                 10%      0%
+Ventas/Empleado   $    160      7%    Préstamo Límite        $ 50000      0%
+Unid./Empleado        5.00      0%    Tasa del Impuesto          25%      0%
+Invers. de Cap.   $ 205850     23%    Imp. Pag. Período      $   496    -86%
+Capacid. Utiliz.       80%      5%    Imp. Pag. Fecha        $  4184     13%
 
-         ATENEA     TINA ARTEMISA     TRES  ALIADIN  CHIDOXX  IRONBAD MOUNTAIN
+         DHARMA    ZAROV      TMT   WALLST   ADORA1  5AFRESH GOLDENWA     DKVC
        -------- -------- -------- -------- -------- -------- -------- --------
-Ventas  $ 11790  $ 11790  $ 11790  $ 11790  $ 11790  $ 11790  $ 11790  $ 11790
-Util.   $  1383  $  1383  $  1383  $  1383  $  1383  $  1383  $  1383  $  1383
-Precio  $    30  $    30  $    30  $    30  $    30  $    30  $    30  $    30
-GanRet  $  1383  $  1383  $  1383  $  1383  $  1383  $  1383  $  1383  $  1383
-UnRepa      13%      13%      13%      13%      13%      13%      13%      13%
-MPI         100      100      100      100      100      100      100      100
+Ventas  $ 11790  $ 11032  $ 13860  $ 11790  $ 17640  $ 11790  $ 13860  $ 15756
+Util.   $  1449  $ -6197  $  2044  $  1449  $ -1830  $  1449  $  2389  $ -1693
+Precio  $    30  $    28  $    33  $    30  $    56  $    30  $    33  $    52
+GanRet  $  2832  $ -3265  $  3427  $  2832  $    11  $  2832  $  3772  $   113
+UnRepa      13%      13%      14%      13%      10%      13%      14%      10%
+MPI          95       -4      107       95       57       95      113       53
+
+Industry Notes
+--------------
+ Las compañías compensan sus costos altos con precios altos. 
+¿Qué efecto tuvo esto en las ordenes?
+
+ Las ordenes excedieron a la producción aún cuando los precios se incrementaron.
+ Algunas compañías deben tener inversiones fuertes en Marketing o en I&D.
+
+ Con una Inversi¢n de Capital alto, habr  m s capacidad en la industria el 
+ pr¢ximo per¡odo. Para las compa¤¡as que invirtieron, operaciones eficientes 
+ que requer¡an una producción m s alta pero con un costo m s bajo por unidad.
 

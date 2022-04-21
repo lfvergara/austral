@@ -1,0 +1,55 @@
+            Reporte de la Compañía MORFEO for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  10010    100%  Decisiones:Precio     $    55
+CBV                $  -3276     33%             Producción     420 unid.
+                  --------- -------             Marketing  $  2100
+Margen Bruto       $   6734     67%             Inversión  $  9520
+Marketing          $  -2100     21%             I & D      $   236
+Depreciación       $  -1050     10%
+I & D              $   -236      2%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -416      4%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   2932     29%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -733      7%  Inventario                238 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   2199     22%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         182 unid.
+Efectivo           $   7811     19%  Ventas Realizadas         182 unid.
+Inventario         $   4284     10%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  29470     71%  Precio/Unid. Vendida  $ 55.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 38.89
+Total Activo       $  41565    100%  Margen/Unid.Vendida   $ 16.11
+
+Préstamos          $  15145     36%  Reporte de Inversión:
+Ganancias Reten.   $   3582      9%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     55%  Inversión Neta   $   8470     212 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  41565    100%  Próx. Capacidad  $  29470     737 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   2199
+Depreciación       $   1050
+Invers. de Capital $  -9520
+Cambio de Invent.  $  -4284
+Préstamo Neto      $   6487
+                  ---------
+Caja Final         $   7811
+
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+
+ En este período su inventario excede 10 23607e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+

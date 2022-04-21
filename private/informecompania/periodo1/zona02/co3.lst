@@ -1,51 +1,55 @@
-            Reporte de la Compañía LNE for Período 1
+            Reporte de la Compañía AVZE for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  21000    100%  Decisiones:Precio     $    50
-CBV                $  -7560     36%             Producción     420 unid.
-                  --------- -------             Marketing  $  3300
-Margen Bruto       $  13440     64%             Inversión  $ 13000
-Marketing          $  -3300     16%             I & D      $ 10000
-Depreciación       $  -1050      5%
-I & D              $ -10000     48%
+Ventas             $  16800    100%  Decisiones:Precio     $    35
+CBV                $  -9072     54%             Producción     480 unid.
+                  --------- -------             Marketing  $  1150
+Margen Bruto       $   7728     46%             Inversión  $  4200
+Marketing          $  -1150      7%             I & D      $   800
+Depreciación       $  -1050      6%
+I & D              $   -800      5%
 Carga Social       $      0      0%  Reporte de Producción:
-Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -814      4%  Capacid. de Fábrica       525 unid.
-                  --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $  -1724     -7%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $      0      0%  Inventario                  0 unid.
-                  --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $  -1724     -7%
+Cargo Inventario   $      0      0%  Producción                480 unid.
+Interés            $   -301      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        91%
+Utilid.ant.de Imp. $   4427     26%  Produc.Costo/Unidad   $ 18.90
+Impuestos          $  -1107      7%  Inventario                  0 unid.
+                  --------- -------  Empleados                  96 trabaj.
+Utilidad Neta      $   3320     20%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas         979 unid.
-Efectivo           $  19567     37%  Ventas Realizadas         420 unid.
-Inventario         $      0      0%  Ordenes no Realizadas     559 unid.
-Inver. de Capital  $  32950     63%  Precio/Unid. Vendida  $ 50.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 54.10
-Total Activo       $  52517    100%  Margen/Unid.Vendida   $ -4.10
+---------------             -------  Ordenes Recibidas         664 unid.
+Efectivo           $  14342     37%  Ventas Realizadas         480 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     184 unid.
+Inver. de Capital  $  24150     63%  Precio/Unid. Vendida  $ 35.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 25.78
+Total Activo       $  38492    100%  Margen/Unid.Vendida   $  9.22
 
-Préstamos          $  29589     56%  Reporte de Inversión:
-Ganancias Reten.   $     90      0%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     43%  Inversión Neta   $  11950     299 unid.
+Préstamos          $  10951     28%  Reporte de Inversión:
+Ganancias Reten.   $   4703     12%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     59%  Inversión Neta   $   3150      79 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  52517    100%  Próx. Capacidad  $  32950     824 unid.
+Pasivo+Patrimonio  $  38492    100%  Próx. Capacidad  $  24150     604 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $  -1724
+Utilidad Neta      $   3320
 Depreciación       $   1050
-Invers. de Capital $ -13000
+Invers. de Capital $  -4200
 Cambio de Invent.  $      0
-Préstamo Neto      $  20931
+Préstamo Neto      $   2293
                   ---------
-Caja Final         $  19567
+Caja Final         $  14342
 
  La cantidad demandada fue mayor que la producción (cantidad ofertada).
 --Puede reducir la cantidad demandada con un precio m s alto.
 --Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
  con menos marketing y/o menos I&D.
 --Puede incrementar la cantidad ofertada con más producción.
+
+ Su producción est  por encima del 5 23607el costo mínimo por unidad, del nivel 
+ de producción. Ud. podría reducir la producción o incrementar la capacidad 
+ para lograr un costo mínimo por unidad.
 

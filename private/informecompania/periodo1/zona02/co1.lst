@@ -1,51 +1,51 @@
-            Reporte de la Compañía BUSSINES for Período 1
+            Reporte de la Compañía 5BTRIVAL for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  26532    100%  Decisiones:Precio     $    67
-CBV                $  -7128     27%             Producción     420 unid.
-                  --------- -------             Marketing  $  4000
-Margen Bruto       $  19404     73%             Inversión  $ 12050
-Marketing          $  -4000     15%             I & D      $ 10000
-Depreciación       $  -1050      4%
-I & D              $ -10000     38%
+Ventas             $  11790    100%  Decisiones:Precio     $    30
+CBV                $  -7215     61%             Producción     393 unid.
+                  --------- -------             Marketing  $  1050
+Margen Bruto       $   4575     39%             Inversión  $  1050
+Marketing          $  -1050      9%             I & D      $   393
+Depreciación       $  -1050      9%
+I & D              $   -393      3%
 Carga Social       $      0      0%  Reporte de Producción:
-Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -807      3%  Capacid. de Fábrica       525 unid.
-                  --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $   3547     13%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $   -887      3%  Inventario                 24 unid.
-                  --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $   2660     10%
+Cargo Inventario   $      0      0%  Producción                393 unid.
+Interés            $   -150      1%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        75%
+Utilid.ant.de Imp. $   1932     16%  Produc.Costo/Unidad   $ 18.36
+Impuestos          $   -483      4%  Inventario                  0 unid.
+                  --------- -------  Empleados                  79 trabaj.
+Utilidad Neta      $   1449     12%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas         396 unid.
-Efectivo           $  23788     42%  Ventas Realizadas         396 unid.
-Inventario         $    432      1%  Ordenes no Realizadas       0 unid.
-Inver. de Capital  $  32000     57%  Precio/Unid. Vendida  $ 67.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 58.04
-Total Activo       $  56220    100%  Margen/Unid.Vendida   $  8.96
+---------------             -------  Ordenes Recibidas        1012 unid.
+Efectivo           $  10108     32%  Ventas Realizadas         393 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     619 unid.
+Inver. de Capital  $  21000     68%  Precio/Unid. Vendida  $ 30.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 25.08
+Total Activo       $  31108    100%  Margen/Unid.Vendida   $  4.92
 
-Préstamos          $  29339     52%  Reporte de Inversión:
-Ganancias Reten.   $   4043      7%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     41%  Inversión Neta   $  11000     275 unid.
+Préstamos          $   5437     17%  Reporte de Inversión:
+Ganancias Reten.   $   2832      9%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     73%  Inversión Neta   $      0       0 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  56220    100%  Próx. Capacidad  $  32000     800 unid.
+Pasivo+Patrimonio  $  31107    100%  Próx. Capacidad  $  21000     525 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $   2660
+Utilidad Neta      $   1449
 Depreciación       $   1050
-Invers. de Capital $ -12050
-Cambio de Invent.  $   -432
-Préstamo Neto      $  20681
+Invers. de Capital $  -1050
+Cambio de Invent.  $      0
+Préstamo Neto      $  -3221
                   ---------
-Caja Final         $  23788
+Caja Final         $  10108
 
- La producción (cantidad ofertada) fue mayor que la demanda.
---Puede incrementar la cantidad demandada con un precio m s bajo.
---Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
- inviertiendo m s en el marketing e I & D.
---Puede reducir la cantidad ofertada produciendo menos.
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
 

@@ -1,0 +1,52 @@
+            Reporte de la Compañía DIPLOMX for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  25988    100%  Decisiones:Precio     $    73
+CBV                $  -6910     27%             Producción     367 unid.
+                  --------- -------             Marketing  $  8000
+Margen Bruto       $  19078     73%             Inversión  $  4050
+Marketing          $  -8000     31%             I & D      $ 10000
+Depreciación       $  -1050      4%
+I & D              $ -10000     38%
+Carga Social       $    -60      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                367 unid.
+Interés            $   -685      3%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        70%
+Utilid.ant.de Imp. $   -717     -2%  Produc.Costo/Unidad   $ 19.41
+Impuestos          $      0      0%  Inventario                 11 unid.
+                  --------- -------  Empleados                  73 trabaj.
+Utilidad Neta      $   -717     -2%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         356 unid.
+Efectivo           $  24372     50%  Ventas Realizadas         356 unid.
+Inventario         $    214      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  24000     49%  Precio/Unid. Vendida  $ 73.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 74.85
+Total Activo       $  48586    100%  Margen/Unid.Vendida   $ -1.85
+
+Préstamos          $  24902     51%  Reporte de Inversión:
+Ganancias Reten.   $    845      2%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     47%  Inversión Neta   $   3000      75 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  48586    100%  Próx. Capacidad  $  24000     600 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   -717
+Depreciación       $   1050
+Invers. de Capital $  -4050
+Cambio de Invent.  $   -214
+Préstamo Neto      $  16244
+                  ---------
+Caja Final         $  24372
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
+ Su producción est  por debajo del 5 23607el costo mínimo por unidad,
+ del nivel de producción. Puede incrementar la producción o reducir su inversión 
+ de capital para lograr un costo mínimo por unidad.
+

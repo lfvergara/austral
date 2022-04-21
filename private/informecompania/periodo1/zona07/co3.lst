@@ -1,0 +1,48 @@
+            Reporte de la Compañía VSV for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  23045    100%  Decisiones:Precio     $    55
+CBV                $  -7584     33%             Producción     440 unid.
+                  --------- -------             Marketing  $  6000
+Margen Bruto       $  15461     67%             Inversión  $  2700
+Marketing          $  -6000     26%             I & D      $  7000
+Depreciación       $  -1050      5%
+I & D              $  -7000     30%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                440 unid.
+Interés            $   -533      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        84%
+Utilid.ant.de Imp. $    878      4%  Produc.Costo/Unidad   $ 18.10
+Impuestos          $   -220      1%  Inventario                 21 unid.
+                  --------- -------  Empleados                  88 trabaj.
+Utilidad Neta      $    658      3%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         419 unid.
+Efectivo           $  21241     48%  Ventas Realizadas         419 unid.
+Inventario         $    381      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  22650     51%  Precio/Unid. Vendida  $ 55.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 52.90
+Total Activo       $  44272    100%  Margen/Unid.Vendida   $  2.10
+
+Préstamos          $  19393     44%  Reporte de Inversión:
+Ganancias Reten.   $   2041      5%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     52%  Inversión Neta   $   1650      41 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  44272    100%  Próx. Capacidad  $  22650     566 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $    658
+Depreciación       $   1050
+Invers. de Capital $  -2700
+Cambio de Invent.  $   -381
+Préstamo Neto      $  10735
+                  ---------
+Caja Final         $  21241
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

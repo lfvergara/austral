@@ -1,0 +1,51 @@
+            Reporte de la Compañía TRILUX for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  21395    100%  Decisiones:Precio     $    55
+CBV                $  -7002     33%             Producción     420 unid.
+                  --------- -------             Marketing  $  4000
+Margen Bruto       $  14393     67%             Inversión  $ 10050
+Marketing          $  -4000     19%             I & D      $  9000
+Depreciación       $  -1050      5%
+I & D              $  -9000     42%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -724      3%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   -381     -1%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $      0      0%  Inventario                 31 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   -381     -1%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         389 unid.
+Efectivo           $  19716     39%  Ventas Realizadas         389 unid.
+Inventario         $    558      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  30000     60%  Precio/Unid. Vendida  $ 55.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 55.98
+Total Activo       $  50274    100%  Margen/Unid.Vendida   $ -0.98
+
+Préstamos          $  26339     52%  Reporte de Inversión:
+Ganancias Reten.   $   1097      2%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     45%  Inversión Neta   $   9000     225 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  50274    100%  Próx. Capacidad  $  30000     750 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   -381
+Depreciación       $   1050
+Invers. de Capital $ -10050
+Cambio de Invent.  $   -558
+Préstamo Neto      $  17681
+                  ---------
+Caja Final         $  19716
+
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+

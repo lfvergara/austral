@@ -1,0 +1,51 @@
+            Reporte de la Compañía TAURO for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  18900    100%  Decisiones:Precio     $    45
+CBV                $  -7560     40%             Producción     420 unid.
+                  --------- -------             Marketing  $  4500
+Margen Bruto       $  11340     60%             Inversión  $ 10000
+Marketing          $  -4500     24%             I & D      $  3500
+Depreciación       $  -1050      6%
+I & D              $  -3500     19%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -585      3%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   1705      9%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -426      2%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   1279      7%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         585 unid.
+Efectivo           $  16839     36%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     165 unid.
+Inver. de Capital  $  29950     64%  Precio/Unid. Vendida  $ 45.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 40.94
+Total Activo       $  46789    100%  Margen/Unid.Vendida   $  4.06
+
+Préstamos          $  21289     46%  Reporte de Inversión:
+Ganancias Reten.   $   2662      6%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     49%  Inversión Neta   $   8950     224 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  46789    100%  Próx. Capacidad  $  29950     749 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   1279
+Depreciación       $   1050
+Invers. de Capital $ -10000
+Cambio de Invent.  $      0
+Préstamo Neto      $  12631
+                  ---------
+Caja Final         $  16839
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

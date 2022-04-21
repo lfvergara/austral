@@ -1,0 +1,51 @@
+            Reporte de la Compañía PANAS for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  14700    100%  Decisiones:Precio     $    35
+CBV                $  -7560     51%             Producción     420 unid.
+                  --------- -------             Marketing  $  7000
+Margen Bruto       $   7140     49%             Inversión  $  5000
+Marketing          $  -7000     48%             I & D      $  6000
+Depreciación       $  -1050      7%
+I & D              $  -6000     41%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -585      4%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  -7495    -50%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $      0      0%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  -7495    -50%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas        1324 unid.
+Efectivo           $  14939     37%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     904 unid.
+Inver. de Capital  $  24950     63%  Precio/Unid. Vendida  $ 35.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 52.85
+Total Activo       $  39889    100%  Margen/Unid.Vendida   $-17.85
+
+Préstamos          $  21289     53%  Reporte de Inversión:
+Ganancias Reten.   $  -4238    -10%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     57%  Inversión Neta   $   3950      99 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  39889    100%  Próx. Capacidad  $  24950     624 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -7495
+Depreciación       $   1050
+Invers. de Capital $  -5000
+Cambio de Invent.  $      0
+Préstamo Neto      $  12631
+                  ---------
+Caja Final         $  14939
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

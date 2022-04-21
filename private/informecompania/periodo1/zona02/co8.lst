@@ -1,51 +1,55 @@
-            Reporte de la Compañía HERMES for Período 1
+            Reporte de la Compañía CERES for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  27300    100%  Decisiones:Precio     $    65
-CBV                $  -7560     28%             Producción     420 unid.
-                  --------- -------             Marketing  $  4500
-Margen Bruto       $  19740     72%             Inversión  $ 12050
-Marketing          $  -4500     16%             I & D      $ 10000
-Depreciación       $  -1050      4%
-I & D              $ -10000     37%
+Ventas             $  20340    100%  Decisiones:Precio     $    60
+CBV                $  -6119     30%             Producción     410 unid.
+                  --------- -------             Marketing  $  6750
+Margen Bruto       $  14221     70%             Inversión  $  9000
+Marketing          $  -6750     33%             I & D      $  7500
+Depreciación       $  -1050      5%
+I & D              $  -7500     37%
 Carga Social       $      0      0%  Reporte de Producción:
-Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -821      3%  Capacid. de Fábrica       525 unid.
-                  --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $   3369     12%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $   -842      3%  Inventario                  0 unid.
-                  --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $   2527      9%
+Cargo Inventario   $      0      0%  Producción                410 unid.
+Interés            $   -725      4%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        78%
+Utilid.ant.de Imp. $  -1804     -8%  Produc.Costo/Unidad   $ 18.05
+Impuestos          $      0      0%  Inventario                 71 unid.
+                  --------- -------  Empleados                  82 trabaj.
+Utilidad Neta      $  -1804     -8%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas         476 unid.
-Efectivo           $  24587     43%  Ventas Realizadas         420 unid.
-Inventario         $      0      0%  Ordenes no Realizadas      56 unid.
-Inver. de Capital  $  32000     57%  Precio/Unid. Vendida  $ 65.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 56.98
-Total Activo       $  56587    100%  Margen/Unid.Vendida   $  8.02
+---------------             -------  Ordenes Recibidas         339 unid.
+Efectivo           $  19016     39%  Ventas Realizadas         339 unid.
+Inventario         $   1282      3%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  28950     59%  Precio/Unid. Vendida  $ 60.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 65.32
+Total Activo       $  49248    100%  Margen/Unid.Vendida   $ -5.32
 
-Préstamos          $  29839     53%  Reporte de Inversión:
-Ganancias Reten.   $   3910      7%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     40%  Inversión Neta   $  11000     275 unid.
+Préstamos          $  26380     54%  Reporte de Inversión:
+Ganancias Reten.   $     30      0%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     46%  Inversión Neta   $   7950     199 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  56587    100%  Próx. Capacidad  $  32000     800 unid.
+Pasivo+Patrimonio  $  49248    100%  Próx. Capacidad  $  28950     724 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $   2527
+Utilidad Neta      $  -1804
 Depreciación       $   1050
-Invers. de Capital $ -12050
-Cambio de Invent.  $      0
-Préstamo Neto      $  21181
+Invers. de Capital $  -9000
+Cambio de Invent.  $  -1282
+Préstamo Neto      $  17722
                   ---------
-Caja Final         $  24587
+Caja Final         $  19016
 
- La cantidad demandada fue mayor que la producción (cantidad ofertada).
---Puede reducir la cantidad demandada con un precio m s alto.
---Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
- con menos marketing y/o menos I&D.
---Puede incrementar la cantidad ofertada con más producción.
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+
+ En este período su inventario excede 10 23607e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
 

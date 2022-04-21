@@ -1,0 +1,48 @@
+            Reporte de la Compañía BONEOQ2 for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  15960    100%  Decisiones:Precio     $    40
+CBV                $  -7262     45%             Producción     400 unid.
+                  --------- -------             Marketing  $  2000
+Margen Bruto       $   8698     54%             Inversión  $  2000
+Marketing          $  -2000     13%             I & D      $  2000
+Depreciación       $  -1050      7%
+I & D              $  -2000     13%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                400 unid.
+Interés            $   -248      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        76%
+Utilid.ant.de Imp. $   3400     21%  Produc.Costo/Unidad   $ 18.20
+Impuestos          $   -850      5%  Inventario                  1 unid.
+                  --------- -------  Empleados                  80 trabaj.
+Utilidad Neta      $   2550     16%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         399 unid.
+Efectivo           $  13811     39%  Ventas Realizadas         399 unid.
+Inventario         $     19      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  21950     61%  Precio/Unid. Vendida  $ 40.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 31.48
+Total Activo       $  35780    100%  Margen/Unid.Vendida   $  8.52
+
+Préstamos          $   9009     25%  Reporte de Inversión:
+Ganancias Reten.   $   3933     11%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     64%  Inversión Neta   $    950      24 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  35780    100%  Próx. Capacidad  $  21950     549 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   2550
+Depreciación       $   1050
+Invers. de Capital $  -2000
+Cambio de Invent.  $    -19
+Préstamo Neto      $    351
+                  ---------
+Caja Final         $  13811
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

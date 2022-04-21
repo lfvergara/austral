@@ -1,51 +1,59 @@
-            Reporte de la Compañía LSBROSKI for Período 1
+            Reporte de la Compañía PAPASFRI for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  23520    100%  Decisiones:Precio     $    56
-CBV                $  -7560     32%             Producción     420 unid.
-                  --------- -------             Marketing  $  1552
-Margen Bruto       $  15960     68%             Inversión  $ 13000
-Marketing          $  -1552      7%             I & D      $ 10000
-Depreciación       $  -1050      4%
-I & D              $ -10000     43%
+Ventas             $  20955    100%  Decisiones:Precio     $    55
+CBV                $  -7910     38%             Producción     525 unid.
+                  --------- -------             Marketing  $  6000
+Margen Bruto       $  13045     62%             Inversión  $ 12000
+Marketing          $  -6000     29%             I & D      $  7000
+Depreciación       $  -1050      5%
+I & D              $  -7000     33%
 Carga Social       $      0      0%  Reporte de Producción:
-Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -766      3%  Capacid. de Fábrica       525 unid.
-                  --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $   2592     11%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $   -648      3%  Inventario                  0 unid.
-                  --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $   1944      8%
+Cargo Inventario   $      0      0%  Producción                525 unid.
+Interés            $   -870      4%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada       100%
+Utilid.ant.de Imp. $  -1875     -8%  Produc.Costo/Unidad   $ 20.76
+Impuestos          $      0      0%  Inventario                144 unid.
+                  --------- -------  Empleados                 105 trabaj.
+Utilidad Neta      $  -1875     -8%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas         513 unid.
-Efectivo           $  21056     39%  Ventas Realizadas         420 unid.
-Inventario         $      0      0%  Ordenes no Realizadas      93 unid.
-Inver. de Capital  $  32950     61%  Precio/Unid. Vendida  $ 56.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 49.83
-Total Activo       $  54006    100%  Margen/Unid.Vendida   $  6.17
+---------------             -------  Ordenes Recibidas         381 unid.
+Efectivo           $  19503     36%  Ventas Realizadas         381 unid.
+Inventario         $   2990      5%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  31950     59%  Precio/Unid. Vendida  $ 55.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 59.92
+Total Activo       $  54443    100%  Margen/Unid.Vendida   $ -4.92
 
-Préstamos          $  27841     52%  Reporte de Inversión:
-Ganancias Reten.   $   3327      6%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     42%  Inversión Neta   $  11950     299 unid.
+Préstamos          $  31628     58%  Reporte de Inversión:
+Ganancias Reten.   $    -23      0%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     42%  Inversión Neta   $  10950     274 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  54006    100%  Próx. Capacidad  $  32950     824 unid.
+Pasivo+Patrimonio  $  54443    100%  Próx. Capacidad  $  31950     799 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $   1944
+Utilidad Neta      $  -1875
 Depreciación       $   1050
-Invers. de Capital $ -13000
-Cambio de Invent.  $      0
-Préstamo Neto      $  19183
+Invers. de Capital $ -12000
+Cambio de Invent.  $  -2990
+Préstamo Neto      $  22970
                   ---------
-Caja Final         $  21056
+Caja Final         $  19503
 
- La cantidad demandada fue mayor que la producción (cantidad ofertada).
---Puede reducir la cantidad demandada con un precio m s alto.
---Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
- con menos marketing y/o menos I&D.
---Puede incrementar la cantidad ofertada con más producción.
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+
+ En este período su inventario excede 10 23607e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+
+ Su producción est  por encima del 5 23607el costo mínimo por unidad, del nivel 
+ de producción. Ud. podría reducir la producción o incrementar la capacidad 
+ para lograr un costo mínimo por unidad.
 

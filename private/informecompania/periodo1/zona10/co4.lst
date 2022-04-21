@@ -1,0 +1,51 @@
+            Reporte de la Compañía 3XJ for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  16800    100%  Decisiones:Precio     $    40
+CBV                $  -7560     45%             Producción     420 unid.
+                  --------- -------             Marketing  $  5000
+Margen Bruto       $   9240     55%             Inversión  $ 10050
+Marketing          $  -5000     30%             I & D      $ 10000
+Depreciación       $  -1050      6%
+I & D              $ -10000     60%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -779      5%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  -7589    -44%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $      0      0%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  -7589    -44%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         933 unid.
+Efectivo           $  16868     36%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     513 unid.
+Inver. de Capital  $  30000     64%  Precio/Unid. Vendida  $ 40.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 58.07
+Total Activo       $  46868    100%  Margen/Unid.Vendida   $-18.07
+
+Préstamos          $  28339     60%  Reporte de Inversión:
+Ganancias Reten.   $  -4309     -8%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     49%  Inversión Neta   $   9000     225 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  46868    100%  Próx. Capacidad  $  30000     750 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -7589
+Depreciación       $   1050
+Invers. de Capital $ -10050
+Cambio de Invent.  $      0
+Préstamo Neto      $  19681
+                  ---------
+Caja Final         $  16868
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

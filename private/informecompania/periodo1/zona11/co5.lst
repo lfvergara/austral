@@ -1,0 +1,51 @@
+            Reporte de la Compañía STELLA6 for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  19320    100%  Decisiones:Precio     $    46
+CBV                $  -7560     39%             Producción     420 unid.
+                  --------- -------             Marketing  $  4000
+Margen Bruto       $  11760     61%             Inversión  $  5050
+Marketing          $  -4000     21%             I & D      $  4500
+Depreciación       $  -1050      5%
+I & D              $  -4500     23%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -463      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   1747      9%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -437      2%  Inventario                  0 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   1310      7%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         548 unid.
+Efectivo           $  17370     41%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     128 unid.
+Inver. de Capital  $  25000     59%  Precio/Unid. Vendida  $ 46.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 41.84
+Total Activo       $  42370    100%  Margen/Unid.Vendida   $  4.16
+
+Préstamos          $  16839     40%  Reporte de Inversión:
+Ganancias Reten.   $   2693      6%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     54%  Inversión Neta   $   4000     100 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  42370    100%  Próx. Capacidad  $  25000     625 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   1310
+Depreciación       $   1050
+Invers. de Capital $  -5050
+Cambio de Invent.  $      0
+Préstamo Neto      $   8181
+                  ---------
+Caja Final         $  17370
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

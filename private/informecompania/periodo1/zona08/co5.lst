@@ -1,0 +1,55 @@
+            Reporte de la Compañía ABGUNIT for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  13910    100%  Decisiones:Precio     $    65
+CBV                $  -3852     28%             Producción     420 unid.
+                  --------- -------             Marketing  $  1995
+Margen Bruto       $  10058     72%             Inversión  $ 11050
+Marketing          $  -1995     14%             I & D      $  8500
+Depreciación       $  -1050      8%
+I & D              $  -8500     61%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -683      5%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $  -2170    -15%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $      0      0%  Inventario                206 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $  -2170    -15%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         214 unid.
+Efectivo           $  12720     27%  Ventas Realizadas         214 unid.
+Inventario         $   3708      8%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  31000     65%  Precio/Unid. Vendida  $ 65.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 75.14
+Total Activo       $  47428    100%  Margen/Unid.Vendida   $-10.14
+
+Préstamos          $  24834     52%  Reporte de Inversión:
+Ganancias Reten.   $   -244      0%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     48%  Inversión Neta   $  10000     250 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  47428    100%  Próx. Capacidad  $  31000     775 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -2170
+Depreciación       $   1050
+Invers. de Capital $ -11050
+Cambio de Invent.  $  -3708
+Préstamo Neto      $  16176
+                  ---------
+Caja Final         $  12720
+
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+
+ En este período su inventario excede 10 23607e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+

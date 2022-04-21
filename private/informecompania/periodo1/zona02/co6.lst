@@ -1,51 +1,59 @@
-            Reporte de la Compañía NYP for Período 1
+            Reporte de la Compañía VASOSHYH for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  21000    100%  Decisiones:Precio     $    50
-CBV                $  -7560     36%             Producción     420 unid.
-                  --------- -------             Marketing  $  1050
-Margen Bruto       $  13440     64%             Inversión  $ 10000
-Marketing          $  -1050      5%             I & D      $   825
-Depreciación       $  -1050      5%
-I & D              $   -825      4%
+Ventas             $  13450    100%  Decisiones:Precio     $    50
+CBV                $  -5084     38%             Producción     480 unid.
+                  --------- -------             Marketing  $  2000
+Margen Bruto       $   8366     62%             Inversión  $    11
+Marketing          $  -2000     15%             I & D      $  3000
+Depreciación       $  -1050      8%
+I & D              $  -3000     22%
 Carga Social       $      0      0%  Reporte de Producción:
-Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -417      2%  Capacid. de Fábrica       525 unid.
-                  --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $  10098     48%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $  -2525     12%  Inventario                  0 unid.
-                  --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $   7573     36%
+Cargo Inventario   $      0      0%  Producción                480 unid.
+Interés            $   -270      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        91%
+Utilid.ant.de Imp. $   2046     15%  Produc.Costo/Unidad   $ 18.90
+Impuestos          $   -512      4%  Inventario                211 unid.
+                  --------- -------  Empleados                  96 trabaj.
+Utilidad Neta      $   1534     11%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas         750 unid.
-Efectivo           $  17008     36%  Ventas Realizadas         420 unid.
-Inventario         $      0      0%  Ordenes no Realizadas     330 unid.
-Inver. de Capital  $  29950     64%  Precio/Unid. Vendida  $ 50.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 25.96
-Total Activo       $  46958    100%  Margen/Unid.Vendida   $ 24.04
+---------------             -------  Ordenes Recibidas         269 unid.
+Efectivo           $  11618     33%  Ventas Realizadas         269 unid.
+Inventario         $   3988     11%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  19961     56%  Precio/Unid. Vendida  $ 50.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 42.39
+Total Activo       $  35567    100%  Margen/Unid.Vendida   $  7.61
 
-Préstamos          $  15164     32%  Reporte de Inversión:
-Ganancias Reten.   $   8956     19%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     49%  Inversión Neta   $   8950     224 unid.
+Préstamos          $   9812     28%  Reporte de Inversión:
+Ganancias Reten.   $   2917      8%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     64%  Inversión Neta   $  -1039     -26 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  46958    100%  Próx. Capacidad  $  29950     749 unid.
+Pasivo+Patrimonio  $  35567    100%  Próx. Capacidad  $  19961     499 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $   7573
+Utilidad Neta      $   1534
 Depreciación       $   1050
-Invers. de Capital $ -10000
-Cambio de Invent.  $      0
-Préstamo Neto      $   6506
+Invers. de Capital $    -11
+Cambio de Invent.  $  -3988
+Préstamo Neto      $   1154
                   ---------
-Caja Final         $  17008
+Caja Final         $  11618
 
- La cantidad demandada fue mayor que la producción (cantidad ofertada).
---Puede reducir la cantidad demandada con un precio m s alto.
---Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
- con menos marketing y/o menos I&D.
---Puede incrementar la cantidad ofertada con más producción.
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+
+ En este período su inventario excede 10 23607e su producción. Remember
+there is an opportunity cost to carrying inventory. 
+¿Es esto parte de su estrategia a largo plazo?
+
+ Su producción est  por encima del 5 23607el costo mínimo por unidad, del nivel 
+ de producción. Ud. podría reducir la producción o incrementar la capacidad 
+ para lograr un costo mínimo por unidad.
 

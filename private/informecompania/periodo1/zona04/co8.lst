@@ -1,0 +1,48 @@
+            Reporte de la Compañía HELIOS for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  20150    100%  Decisiones:Precio     $    50
+CBV                $  -7254     36%             Producción     420 unid.
+                  --------- -------             Marketing  $  3500
+Margen Bruto       $  12896     64%             Inversión  $  6000
+Marketing          $  -3500     17%             I & D      $  4500
+Depreciación       $  -1050      5%
+I & D              $  -4500     22%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                420 unid.
+Interés            $   -475      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        80%
+Utilid.ant.de Imp. $   3371     17%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -843      4%  Inventario                 17 unid.
+                  --------- -------  Empleados                  84 trabaj.
+Utilidad Neta      $   2528     13%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         403 unid.
+Efectivo           $  17782     40%  Ventas Realizadas         403 unid.
+Inventario         $    306      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  25950     59%  Precio/Unid. Vendida  $ 50.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 41.64
+Total Activo       $  44038    100%  Margen/Unid.Vendida   $  8.36
+
+Préstamos          $  17289     39%  Reporte de Inversión:
+Ganancias Reten.   $   3911      9%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     52%  Inversión Neta   $   4950     124 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  44038    100%  Próx. Capacidad  $  25950     649 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   2528
+Depreciación       $   1050
+Invers. de Capital $  -6000
+Cambio de Invent.  $   -306
+Préstamo Neto      $   8631
+                  ---------
+Caja Final         $  17782
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

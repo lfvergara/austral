@@ -1,0 +1,51 @@
+            Reporte de la Compañía MACH for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  14400    100%  Decisiones:Precio     $    40
+CBV                $  -6610     46%             Producción     393 unid.
+                  --------- -------             Marketing  $  1050
+Margen Bruto       $   7790     54%             Inversión  $  2000
+Marketing          $  -1050      7%             I & D      $  1000
+Depreciación       $  -1050      7%
+I & D              $  -1000      7%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                393 unid.
+Interés            $   -192      1%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        75%
+Utilid.ant.de Imp. $   4498     31%  Produc.Costo/Unidad   $ 18.36
+Impuestos          $  -1125      8%  Inventario                 33 unid.
+                  --------- -------  Empleados                  79 trabaj.
+Utilidad Neta      $   3373     23%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         360 unid.
+Efectivo           $  12032     35%  Ventas Realizadas         360 unid.
+Inventario         $    606      2%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  21950     63%  Precio/Unid. Vendida  $ 40.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 27.51
+Total Activo       $  34588    100%  Margen/Unid.Vendida   $ 12.49
+
+Préstamos          $   6994     20%  Reporte de Inversión:
+Ganancias Reten.   $   4756     14%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     66%  Inversión Neta   $    950      24 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  34588    100%  Próx. Capacidad  $  21950     549 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   3373
+Depreciación       $   1050
+Invers. de Capital $  -2000
+Cambio de Invent.  $   -606
+Préstamo Neto      $  -1664
+                  ---------
+Caja Final         $  12032
+
+ La producción (cantidad ofertada) fue mayor que la demanda.
+--Puede incrementar la cantidad demandada con un precio m s bajo.
+--Puede incrementar la demanda (la curva de la demanda cambia a la derecha) 
+ inviertiendo m s en el marketing e I & D.
+--Puede reducir la cantidad ofertada produciendo menos.
+

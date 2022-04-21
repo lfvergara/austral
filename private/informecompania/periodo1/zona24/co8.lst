@@ -1,0 +1,51 @@
+            Reporte de la Compañía VESTA for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  15050    100%  Decisiones:Precio     $    35
+CBV                $  -7753     52%             Producción     430 unid.
+                  --------- -------             Marketing  $  1000
+Margen Bruto       $   7297     48%             Inversión  $  1530
+Marketing          $  -1000      7%             I & D      $  6000
+Depreciación       $  -1050      7%
+I & D              $  -6000     40%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                430 unid.
+Interés            $   -330      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        82%
+Utilid.ant.de Imp. $  -1083     -6%  Produc.Costo/Unidad   $ 18.03
+Impuestos          $      0      0%  Inventario                  0 unid.
+                  --------- -------  Empleados                  86 trabaj.
+Utilidad Neta      $  -1083     -6%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         757 unid.
+Efectivo           $  13941     39%  Ventas Realizadas         430 unid.
+Inventario         $      0      0%  Ordenes no Realizadas     327 unid.
+Inver. de Capital  $  21480     61%  Precio/Unid. Vendida  $ 35.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 37.52
+Total Activo       $  35421    100%  Margen/Unid.Vendida   $ -2.52
+
+Préstamos          $  12012     34%  Reporte de Inversión:
+Ganancias Reten.   $    571      2%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     64%  Inversión Neta   $    480      12 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  35421    100%  Próx. Capacidad  $  21480     537 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -1083
+Depreciación       $   1050
+Invers. de Capital $  -1530
+Cambio de Invent.  $      0
+Préstamo Neto      $   3354
+                  ---------
+Caja Final         $  13941
+
+ La cantidad demandada fue mayor que la producción (cantidad ofertada).
+--Puede reducir la cantidad demandada con un precio m s alto.
+--Puede reducir la demanda (la curva de la demanda cambiar a la izquierda)
+ con menos marketing y/o menos I&D.
+--Puede incrementar la cantidad ofertada con más producción.
+

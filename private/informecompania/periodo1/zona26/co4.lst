@@ -1,0 +1,52 @@
+            Reporte de la Compañía PERROEC for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  11900    100%  Decisiones:Precio     $    50
+CBV                $  -8144     68%             Producción     240 unid.
+                  --------- -------             Marketing  $  2000
+Margen Bruto       $   3756     32%             Inversión  $  1500
+Marketing          $  -2000     17%             I & D      $  1500
+Depreciación       $  -1050      9%
+I & D              $  -1500     13%
+Carga Social       $   -310      3%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                240 unid.
+Interés            $   -246      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        46%
+Utilid.ant.de Imp. $  -1350    -10%  Produc.Costo/Unidad   $ 34.22
+Impuestos          $      0      0%  Inventario                  2 unid.
+                  --------- -------  Empleados                  48 trabaj.
+Utilidad Neta      $  -1350    -10%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         238 unid.
+Efectivo           $  10633     33%  Ventas Realizadas         238 unid.
+Inventario         $     68      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  21450     67%  Precio/Unid. Vendida  $ 50.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 54.37
+Total Activo       $  32151    100%  Margen/Unid.Vendida   $ -4.37
+
+Préstamos          $   8942     28%  Reporte de Inversión:
+Ganancias Reten.   $    371      1%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     71%  Inversión Neta   $    450      11 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  32151    100%  Próx. Capacidad  $  21450     536 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $  -1350
+Depreciación       $   1050
+Invers. de Capital $  -1500
+Cambio de Invent.  $    -68
+Préstamo Neto      $    284
+                  ---------
+Caja Final         $  10633
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
+ Su producción est  por debajo del 5 23607el costo mínimo por unidad,
+ del nivel de producción. Puede incrementar la producción o reducir su inversión 
+ de capital para lograr un costo mínimo por unidad.
+

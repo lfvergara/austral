@@ -1,0 +1,48 @@
+            Reporte de la Compañía GAMAT for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  21600    100%  Decisiones:Precio     $    50
+CBV                $  -7849     36%             Producción     446 unid.
+                  --------- -------             Marketing  $  4500
+Margen Bruto       $  13751     64%             Inversión  $  6000
+Marketing          $  -4500     21%             I & D      $  5000
+Depreciación       $  -1050      5%
+I & D              $  -5000     23%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                446 unid.
+Interés            $   -532      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        85%
+Utilid.ant.de Imp. $   2669     12%  Produc.Costo/Unidad   $ 18.17
+Impuestos          $   -667      3%  Inventario                 14 unid.
+                  --------- -------  Empleados                  89 trabaj.
+Utilidad Neta      $   2002      9%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         432 unid.
+Efectivo           $  19352     42%  Ventas Realizadas         432 unid.
+Inventario         $    254      1%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  25950     57%  Precio/Unid. Vendida  $ 50.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 43.82
+Total Activo       $  45556    100%  Margen/Unid.Vendida   $  6.18
+
+Préstamos          $  19333     42%  Reporte de Inversión:
+Ganancias Reten.   $   3385      7%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     50%  Inversión Neta   $   4950     124 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  45556    100%  Próx. Capacidad  $  25950     649 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   2002
+Depreciación       $   1050
+Invers. de Capital $  -6000
+Cambio de Invent.  $   -254
+Préstamo Neto      $  10675
+                  ---------
+Caja Final         $  19352
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+

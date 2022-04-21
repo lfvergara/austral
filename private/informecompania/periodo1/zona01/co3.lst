@@ -1,47 +1,47 @@
-            Reporte de la Compañía ARTEMISA for Período 1
+            Reporte de la Compañía TMT for Período 1
 
 Estado de Ingresos         % Ventas  Reporte de Operaciones
 ------------------           ------  ----------------------
-Ventas             $  18900    100%  Decisiones:Precio     $    45
-CBV                $  -7560     40%             Producción     420 unid.
-                  --------- -------             Marketing  $  2500
-Margen Bruto       $  11340     60%             Inversión  $ 13000
-Marketing          $  -2500     13%             I & D      $  2000
-Depreciación       $  -1050      6%
-I & D              $  -2000     11%
+Ventas             $  13860    100%  Decisiones:Precio     $    33
+CBV                $  -7560     55%             Producción     420 unid.
+                  --------- -------             Marketing  $   600
+Margen Bruto       $   6300     45%             Inversión  $ 10050
+Marketing          $   -600      4%             I & D      $  1500
+Depreciación       $  -1050      8%
+I & D              $  -1500     11%
 Carga Social       $      0      0%  Reporte de Producción:
 Cargo Inventario   $      0      0%  Producción                420 unid.
-Interés            $   -572      3%  Capacid. de Fábrica       525 unid.
+Interés            $   -425      3%  Capacid. de Fábrica       525 unid.
                   --------- -------  Capacid. Utilizada        80%
-Utilid.ant.de Imp. $   5218     28%  Produc.Costo/Unidad   $ 18.00
-Impuestos          $  -1305      7%  Inventario                  0 unid.
+Utilid.ant.de Imp. $   2725     20%  Produc.Costo/Unidad   $ 18.00
+Impuestos          $   -681      5%  Inventario                  0 unid.
                   --------- -------  Empleados                  84 trabaj.
-Utilidad Neta      $   3913     21%
+Utilidad Neta      $   2044     15%
 
 Hoja de Balance             % Total  Reporte de Marketing:
----------------             -------  Ordenes Recibidas        1133 unid.
-Efectivo           $  15973     33%  Ventas Realizadas         420 unid.
-Inventario         $      0      0%  Ordenes no Realizadas     713 unid.
-Inver. de Capital  $  32950     67%  Precio/Unid. Vendida  $ 45.00
-                  --------- -------  Tot. Costo/Unid Vend. $ 32.58
-Total Activo       $  48923    100%  Margen/Unid.Vendida   $ 12.42
+---------------             -------  Ordenes Recibidas         496 unid.
+Efectivo           $  11704     28%  Ventas Realizadas         420 unid.
+Inventario         $      0      0%  Ordenes no Realizadas      76 unid.
+Inver. de Capital  $  30000     72%  Precio/Unid. Vendida  $ 33.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 26.51
+Total Activo       $  41704    100%  Margen/Unid.Vendida   $  6.49
 
-Préstamos          $  20789     42%  Reporte de Inversión:
-Ganancias Reten.   $   5296     11%  Capacid.de Fabr. $  21000     525 unid.
-Capital            $  22838     47%  Inversión Neta   $  11950     299 unid.
+Préstamos          $  15439     37%  Reporte de Inversión:
+Ganancias Reten.   $   3427      8%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     55%  Inversión Neta   $   9000     225 unid.
                   --------- -------                   --------- ------
-Pasivo+Patrimonio  $  48923    100%  Próx. Capacidad  $  32950     824 unid.
+Pasivo+Patrimonio  $  41704    100%  Próx. Capacidad  $  30000     750 unid.
 
 Flujo de Caja
 ---------
 Caja Inicial       $  11879
-Utilidad Neta      $   3913
+Utilidad Neta      $   2044
 Depreciación       $   1050
-Invers. de Capital $ -13000
+Invers. de Capital $ -10050
 Cambio de Invent.  $      0
-Préstamo Neto      $  12131
+Préstamo Neto      $   6781
                   ---------
-Caja Final         $  15973
+Caja Final         $  11704
 
  La cantidad demandada fue mayor que la producción (cantidad ofertada).
 --Puede reducir la cantidad demandada con un precio m s alto.

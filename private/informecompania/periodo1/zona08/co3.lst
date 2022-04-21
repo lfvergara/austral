@@ -1,0 +1,48 @@
+            Reporte de la Compañía SNT for Período 1
+
+Estado de Ingresos         % Ventas  Reporte de Operaciones
+------------------           ------  ----------------------
+Ventas             $  23815    100%  Decisiones:Precio     $    55
+CBV                $  -7837     33%             Producción     440 unid.
+                  --------- -------             Marketing  $  6000
+Margen Bruto       $  15978     67%             Inversión  $  3000
+Marketing          $  -6000     25%             I & D      $  7000
+Depreciación       $  -1050      4%
+I & D              $  -7000     29%
+Carga Social       $      0      0%  Reporte de Producción:
+Cargo Inventario   $      0      0%  Producción                440 unid.
+Interés            $   -542      2%  Capacid. de Fábrica       525 unid.
+                  --------- -------  Capacid. Utilizada        84%
+Utilid.ant.de Imp. $   1386      6%  Produc.Costo/Unidad   $ 18.10
+Impuestos          $   -347      1%  Inventario                  7 unid.
+                  --------- -------  Empleados                  88 trabaj.
+Utilidad Neta      $   1039      4%
+
+Hoja de Balance             % Total  Reporte de Marketing:
+---------------             -------  Ordenes Recibidas         433 unid.
+Efectivo           $  21876     49%  Ventas Realizadas         433 unid.
+Inventario         $    127      0%  Ordenes no Realizadas       0 unid.
+Inver. de Capital  $  22950     51%  Precio/Unid. Vendida  $ 55.00
+                  --------- -------  Tot. Costo/Unid Vend. $ 51.80
+Total Activo       $  44953    100%  Margen/Unid.Vendida   $  3.20
+
+Préstamos          $  19693     44%  Reporte de Inversión:
+Ganancias Reten.   $   2422      5%  Capacid.de Fabr. $  21000     525 unid.
+Capital            $  22838     51%  Inversión Neta   $   1950      49 unid.
+                  --------- -------                   --------- ------
+Pasivo+Patrimonio  $  44953    100%  Próx. Capacidad  $  22950     574 unid.
+
+Flujo de Caja
+---------
+Caja Inicial       $  11879
+Utilidad Neta      $   1039
+Depreciación       $   1050
+Invers. de Capital $  -3000
+Cambio de Invent.  $   -127
+Préstamo Neto      $  11035
+                  ---------
+Caja Final         $  21876
+
+ Felicitaciones! Ud. ha logrado balancear su producción (cantidad ofertada) y 
+ ordenes (cantidad demandada) con un margen del 5%.
+
