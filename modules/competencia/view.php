@@ -16,12 +16,14 @@ class CompetenciaView extends View {
 		print $template;
 	}
 
-	function cronograma($obj_cronograma, $obj_competencia) {
+	function cronograma($cronograma_collection, $obj_competencia) {
 		$gui = file_get_contents("static/modules/competencia/cronograma.html");		
-		$obj_cronograma = $this->set_dict($obj_cronograma);
+		$gui_tbl_cronograma = file_get_contents("static/modules/competencia/tbl_cronograma.html");
+		$gui_tbl_cronograma = $this->render_regex('TBL_CRONOGRAMA', $gui_tbl_cronograma, $cronograma_collection);
 		$obj_competencia = $this->set_dict($obj_competencia);
 		$fecha_actual = $this->descomponer_fecha();
-		$render = $this->render($obj_cronograma, $gui);
+
+		$render = str_replace('{tbl_cronograma}', $gui_tbl_cronograma, $gui);
 		$render = $this->render($fecha_actual, $render);
 		$render = $this->render($obj_competencia, $render);
 		$render = str_replace('{equipo-zona}', $_SESSION["data-login-" . APP_ABREV]["equipo-zona"], $render);

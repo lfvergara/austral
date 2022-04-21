@@ -37,15 +37,11 @@ class CompetenciaController {
 
     function cronograma() {
         SessionHandler()->check_session();
-        SessionHandler()->check_actualiza_contrasena();
-        $cm = new Cronograma();
-        $cm->cronograma_id = 1;
-        $cm->get();
-
+        SessionHandler()->check_actualiza_contrasena();        
         $this->model->competencia_id = 1;
         $this->model->get();
-
-        $this->view->cronograma($cm, $this->model);
+        $cronograma_collection = Collector()->get('Cronograma');
+        $this->view->cronograma($cronograma_collection, $this->model);
     }
 
     function manual() {
@@ -180,8 +176,7 @@ class CompetenciaController {
         $this->model->competencia_id = 1;
         $this->model->get();
 
-        $select = "f.denominacion AS TITULO, f.equipo AS EQUIPO, f.contenido AS CONTENIDO, date_format(f.fecha, '%d/%m/%Y') AS FECHA, f.hora AS HORA, 
-                   f.correoelectronico AS CORREOELECTRONICO, f.foro_id AS FORID ";
+        $select = "f.denominacion AS TITULO, f.equipo AS EQUIPO, f.contenido AS CONTENIDO, date_format(f.fecha, '%d/%m/%Y') AS FECHA, f.hora AS HORA, f.correoelectronico AS CORREOELECTRONICO, f.foro_id AS FORID ";
         $from = "foro f";
         $where = "f.activo = 1 ORDER BY f.fecha DESC";
         $foro_collection = CollectorCondition()->get('Foro', $where, 4, $from, $select);
